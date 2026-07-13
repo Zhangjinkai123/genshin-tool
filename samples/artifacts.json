@@ -1,0 +1,76 @@
+{
+  "artifacts": [
+    {
+      "id": "a-001",
+      "uid": "100000001",
+      "slot": "理之冠",
+      "rarity": 5,
+      "level": 20,
+      "setName": "逐影猎人",
+      "mainStat": "暴击率",
+      "mainValue": 31.1,
+      "subStats": [
+        {"name": "暴击伤害", "value": 28.0},
+        {"name": "攻击力%", "value": 9.9},
+        {"name": "元素充能效率", "value": 5.8},
+        {"name": "生命值", "value": 299}
+      ],
+      "equippedBy": "那维莱特",
+      "locked": true
+    },
+    {
+      "id": "a-002",
+      "uid": "100000001",
+      "slot": "时之沙",
+      "rarity": 5,
+      "level": 20,
+      "setName": "绝缘之旗印",
+      "mainStat": "元素充能效率",
+      "mainValue": 51.8,
+      "subStats": [
+        {"name": "暴击率", "value": 10.5},
+        {"name": "暴击伤害", "value": 14.0},
+        {"name": "攻击力%", "value": 5.8},
+        {"name": "元素精通", "value": 42}
+      ],
+      "equippedBy": "香菱",
+      "locked": true
+    },
+    {
+      "id": "a-003",
+      "uid": "100000001",
+      "slot": "空之杯",
+      "rarity": 5,
+      "level": 16,
+      "setName": "深林的记忆",
+      "mainStat": "元素精通",
+      "mainValue": 139,
+      "subStats": [
+        {"name": "元素充能效率", "value": 11.0},
+        {"name": "暴击率", "value": 3.9},
+        {"name": "生命值%", "value": 9.3},
+        {"name": "防御力", "value": 39}
+      ],
+      "equippedBy": "",
+      "locked": false
+    },
+    {
+      "id": "a-004",
+      "uid": "100000001",
+      "slot": "生之花",
+      "rarity": 5,
+      "level": 20,
+      "setName": "千岩牢固",
+      "mainStat": "生命值",
+      "mainValue": 4780,
+      "subStats": [
+        {"name": "生命值%", "value": 15.2},
+        {"name": "元素充能效率", "value": 12.3},
+        {"name": "暴击率", "value": 3.5},
+        {"name": "防御力%", "value": 7.3}
+      ],
+      "equippedBy": "钟离",
+      "locked": true
+    }
+  ]
+}

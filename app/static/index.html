@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>原神个人分析工具</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">G</div>
+          <div>
+            <h1>原神分析</h1>
+            <p>本地自用工具</p>
+          </div>
+        </div>
+        <nav class="nav-tabs" aria-label="主导航">
+          <button class="nav-tab active" data-view="dashboard">总览</button>
+          <button class="nav-tab" data-view="wishes">抽卡</button>
+          <button class="nav-tab" data-view="artifacts">圣遗物</button>
+          <button class="nav-tab" data-view="characters">角色练度</button>
+          <button class="nav-tab" data-view="settings">设置</button>
+        </nav>
+        <section class="account-panel">
+          <label>
+            账号标识
+            <input id="uidInput" placeholder="例如 100000001" autocomplete="off" />
+          </label>
+          <label>
+            服务器 / 渠道
+            <select id="serverInput">
+              <option>天空岛</option>
+              <option>世界树</option>
+              <option>B 服</option>
+              <option>其他</option>
+            </select>
+          </label>
+          <label>
+            备注
+            <input id="noteInput" placeholder="主号、深渊号等" autocomplete="off" />
+          </label>
+          <button id="saveAccountBtn" class="primary-btn">保存账号</button>
+        </section>
+      </aside>
+
+      <main class="content">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">当前账号</p>
+            <h2 id="currentAccount">未设置账号</h2>
+          </div>
+          <div class="top-actions">
+            <button id="loadCacheBtn" class="ghost-btn">读取缓存</button>
+            <button id="clearCacheBtn" class="danger-btn">清理缓存</button>
+          </div>
+        </header>
+
+        <section class="view active" id="dashboardView">
+          <div class="metric-grid">
+            <article class="metric">
+              <span>总抽数</span>
+              <strong id="dashWishTotal">0</strong>
+              <small id="dashFive">五星 0 / 四星 0</small>
+            </article>
+            <article class="metric">
+              <span>圣遗物</span>
+              <strong id="dashArtifactTotal">0</strong>
+              <small id="dashArtifactAvg">平均 RV 0</small>
+            </article>
+            <article class="metric">
+              <span>高双暴</span>
+              <strong id="dashHighCv">0</strong>
+              <small>CV ≥ 30</small>
+            </article>
+            <article class="metric">
+              <span>最近更新</span>
+              <strong id="dashUpdated">-</strong>
+              <small>本地会话</small>
+            </article>
+          </div>
+
+          <div class="section-band two-col">
+            <section>
+              <div class="section-title">
+                <h3>抽卡摘要</h3>
+                <span id="wishHint">等待导入</span>
+              </div>
+              <div id="dashWishChart" class="chart"></div>
+            </section>
+            <section>
+              <div class="section-title">
+                <h3>圣遗物评级</h3>
+                <span id="artifactHint">等待导入</span>
+              </div>
+              <div id="dashArtifactChart" class="chart"></div>
+            </section>
+          </div>
+        </section>
+
+        <section class="view" id="wishesView">
+          <div class="toolbar">
+            <label class="file-button">
+              导入抽卡 JSON
+              <input id="wishFile" type="file" accept="application/json,.json" />
+            </label>
+            <input id="wishUrlInput" class="wide-input" placeholder="粘贴祈愿历史 URL（含 authkey）" autocomplete="off" />
+            <button id="fetchWishBtn" class="primary-btn">从 URL 拉取</button>
+            <select id="wishPoolFilter">
+              <option value="">全部卡池</option>
+            </select>
+            <input id="wishStart" type="date" />
+            <input id="wishEnd" type="date" />
+            <button id="saveWishCacheBtn" class="ghost-btn">写入缓存</button>
+          </div>
+
+          <div class="metric-grid compact">
+            <article class="metric"><span>总抽数</span><strong id="wishTotal">0</strong></article>
+            <article class="metric"><span>五星</span><strong id="wishFive">0</strong></article>
+            <article class="metric"><span>四星</span><strong id="wishFour">0</strong></article>
+            <article class="metric"><span>UP 命中率</span><strong id="wishWinRate">-</strong></article>
+          </div>
+
+          <div class="charts-grid">
+            <section class="chart-panel"><h3>卡池抽数分布</h3><div id="poolChart" class="chart"></div></section>
+            <section class="chart-panel"><h3>月度抽卡趋势</h3><div id="monthChart" class="chart"></div></section>
+            <section class="chart-panel"><h3>五星出货分布</h3><div id="fiveChart" class="chart"></div></section>
+            <section class="chart-panel">
+              <div class="chart-panel-head">
+                <h3>五星出货间隔</h3>
+                <label class="toggle-control">
+                  <input id="intervalDateToggle" type="checkbox" />
+                  <span>日期</span>
+                </label>
+              </div>
+              <div id="intervalChart" class="chart"></div>
+            </section>
+            <section class="chart-panel"><h3>五星 UP 结果统计</h3><div id="fiftyChart" class="chart"></div><p id="fiftyNote" class="chart-note"></p></section>
+            <section class="chart-panel">
+              <h3>当前垫数</h3>
+              <div id="pityList" class="pity-list"></div>
+            </section>
+          </div>
+
+          <section class="table-section">
+            <div class="section-title">
+              <h3>原始记录</h3>
+              <span id="wishErrors"></span>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr><th>时间</th><th>卡池</th><th>物品</th><th>类型</th><th>星级</th><th>命中结果</th></tr>
+                </thead>
+                <tbody id="wishTable"></tbody>
+              </table>
+            </div>
+          </section>
+        </section>
+
+        <section class="view" id="artifactsView">
+          <div class="toolbar artifact-toolbar">
+            <label class="file-button">
+              导入圣遗物 JSON
+              <input id="artifactFile" type="file" accept="application/json,.json" />
+            </label>
+            <select id="templateSelect"></select>
+            <select id="slotFilter"><option value="">全部部位</option></select>
+            <select id="setFilter"><option value="">全部套装</option></select>
+            <select id="mainFilter"><option value="">全部主词条</option></select>
+            <select id="lockFilter">
+              <option value="">锁定状态</option>
+              <option value="true">已锁定</option>
+              <option value="false">未锁定</option>
+            </select>
+            <input id="minCvFilter" type="number" min="0" max="80" step="1" placeholder="最低 CV" />
+            <select id="artifactSort">
+              <option value="general">RV 评分</option>
+              <option value="template">模板评分</option>
+              <option value="cv">双暴值</option>
+              <option value="level">等级</option>
+              <option value="recent">导入时间</option>
+            </select>
+            <button id="saveArtifactCacheBtn" class="ghost-btn">写入缓存</button>
+          </div>
+
+          <div class="metric-grid compact">
+            <article class="metric"><span>总数</span><strong id="artifactTotal">0</strong></article>
+            <article class="metric"><span>平均 RV</span><strong id="artifactAvg">0</strong></article>
+            <article class="metric"><span>高双暴</span><strong id="artifactHighCv">0</strong></article>
+            <article class="metric"><span>锁定</span><strong id="artifactLocked">0</strong></article>
+          </div>
+
+          <div class="artifact-layout">
+            <section>
+              <div class="section-title">
+                <h3>圣遗物列表</h3>
+                <span id="artifactErrors"></span>
+              </div>
+              <div id="artifactList" class="artifact-list"></div>
+            </section>
+            <aside class="detail-panel">
+              <h3>详情</h3>
+              <div id="artifactDetail" class="detail-empty">选择一件圣遗物查看评分解释</div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="view" id="charactersView">
+          <div class="toolbar character-toolbar">
+            <label class="file-button">
+              导入角色 GOOD JSON
+              <input id="characterFile" type="file" accept="application/json,.json" />
+            </label>
+            <select id="characterRoleFilter"><option value="">全部毕业模板</option></select>
+            <select id="characterSort">
+              <option value="score">圣遗物总分</option>
+              <option value="level">角色等级</option>
+              <option value="artifact">圣遗物完整度</option>
+            </select>
+          </div>
+
+          <div class="metric-grid compact">
+            <article class="metric"><span>角色总数</span><strong id="characterTotal">0</strong></article>
+            <article class="metric"><span>平均圣遗物总分</span><strong id="characterAvg">0</strong></article>
+            <article class="metric"><span>毕业</span><strong id="characterGraduate">0</strong></article>
+            <article class="metric"><span>圣遗物配齐</span><strong id="characterComplete">0</strong></article>
+          </div>
+
+          <div class="character-layout">
+            <section>
+              <div class="section-title">
+                <h3>角色练度列表</h3>
+                <div id="characterGradeTabs" class="character-grade-tabs" aria-label="练度筛选">
+                  <button type="button" class="active" data-grade="">全部</button>
+                  <button type="button" data-grade="毕业">毕业</button>
+                  <button type="button" data-grade="优秀">优秀</button>
+                  <button type="button" data-grade="可用">可用</button>
+                  <button type="button" data-grade="待培养">待培养</button>
+                </div>
+                <span id="characterHint">等待导入</span>
+              </div>
+              <div id="characterList" class="character-list"></div>
+            </section>
+            <aside class="detail-panel">
+              <h3>练度详情</h3>
+              <div id="characterDetail" class="detail-empty">选择角色查看毕业模板与培养建议</div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="view" id="settingsView">
+          <div class="settings-grid">
+            <section>
+              <h3>账号配置</h3>
+              <p id="settingsAccount">未设置</p>
+            </section>
+            <section>
+              <h3>本地缓存</h3>
+              <p>缓存文件保存在项目的 data/wishes、data/artifacts、data/cache 目录中，均为 JSON。</p>
+            </section>
+            <section>
+              <h3>UP 命中推断</h3>
+              <div class="settings-form">
+                <label>
+                  角色池 UP 五星
+                  <textarea id="featuredCharacterInput" rows="4" placeholder="每行一个角色名"></textarea>
+                </label>
+                <label>
+                  武器池 UP 五星
+                  <textarea id="featuredWeaponInput" rows="4" placeholder="填写当期 UP 武器；每行一个"></textarea>
+                </label>
+                <button id="saveFeaturedBtn" class="primary-btn">保存 UP 名单</button>
+              </div>
+            </section>
+            <section>
+              <h3>抽卡导入格式</h3>
+              <pre>{
+  "list": [
+    {"uid":"100000001","gacha_type":"301","name":"角色名","item_type":"角色","rank_type":"5","time":"2026-01-01 12:00:00"}
+  ]
+}</pre>
+            </section>
+            <section>
+              <h3>圣遗物导入格式</h3>
+              <pre>{
+  "artifacts": [
+    {"uid":"100000001","slot":"理之冠","rarity":5,"level":20,"setName":"逐影猎人","mainStat":"暴击率","subStats":[{"name":"暴击伤害","value":21.0}]}
+  ]
+}</pre>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="/static/vendor/echarts.min.js"></script>
+    <script src="/static/app.js"></script>
+  </body>
+</html>

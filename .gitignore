@@ -1,0 +1,35 @@
+# Python bytecode and test artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local environments and tool state
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Local runtime output
+data/default-wishes.json
+data/default-artifacts.json
+data/wishes/*.json
+data/artifacts/*.json
+data/cache/*.json
+server.out.log
+server.err.log
+*.log
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

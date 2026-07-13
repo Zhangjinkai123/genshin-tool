@@ -1,0 +1,4293 @@
+{
+  "source": "Paimon.moe open data converted for local banner matching",
+  "generatedAt": "2026-07-08T08:44:46.305Z",
+  "count": 279,
+  "banners": [
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2020-09-28 00:00:00",
+      "end": "2020-10-18 18:00:00",
+      "name": "Ballad in Goblets",
+      "shortName": "Venti",
+      "featuredKeys": [
+        "venti"
+      ],
+      "version": "1.0",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2020-09-28 00:00:00",
+      "end": "2020-10-18 18:00:00",
+      "name": "Epitome Invocation",
+      "shortName": "Amos",
+      "featuredKeys": [
+        "aquila_favonia",
+        "amos_bow"
+      ],
+      "version": "1.0",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2020-10-20 18:00:00",
+      "end": "2020-11-10 16:00:00",
+      "name": "Sparkling Steps",
+      "shortName": "Klee",
+      "featuredKeys": [
+        "klee"
+      ],
+      "version": "1.0",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2020-10-20 18:00:00",
+      "end": "2020-11-10 16:00:00",
+      "name": "Epitome Invocation",
+      "shortName": "Lost Prayer",
+      "featuredKeys": [
+        "lost_prayer_to_the_sacred_winds",
+        "wolfs_gravestone"
+      ],
+      "version": "1.0",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2020-11-11 06:00:00",
+      "end": "2020-12-01 16:00:00",
+      "name": "Farewell of Snezhnaya",
+      "shortName": "Tartaglia",
+      "featuredKeys": [
+        "tartaglia"
+      ],
+      "version": "1.1",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2020-11-11 06:00:00",
+      "end": "2020-12-01 16:00:00",
+      "name": "Epitome Invocation",
+      "shortName": "Skyward",
+      "featuredKeys": [
+        "skyward_harp",
+        "memory_of_dust"
+      ],
+      "version": "1.1",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2020-12-01 18:00:00",
+      "end": "2020-12-22 15:00:00",
+      "name": "Gentry of Hermitage",
+      "shortName": "Zhongli",
+      "featuredKeys": [
+        "zhongli"
+      ],
+      "version": "1.1",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2020-12-01 18:00:00",
+      "end": "2020-12-22 15:00:00",
+      "name": "Epitome Invocation",
+      "shortName": "Vortex",
+      "featuredKeys": [
+        "vortex_vanquisher",
+        "the_unforged"
+      ],
+      "version": "1.1",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2020-12-23 06:00:00",
+      "end": "2021-01-12 16:00:00",
+      "name": "Secretum Secretorum",
+      "shortName": "Albedo",
+      "featuredKeys": [
+        "albedo"
+      ],
+      "version": "1.2",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2020-12-23 06:00:00",
+      "end": "2021-01-12 16:00:00",
+      "name": "Epitome Invocation",
+      "shortName": "Summit",
+      "featuredKeys": [
+        "summit_shaper",
+        "skyward_atlas"
+      ],
+      "version": "1.2",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2021-01-12 18:00:00",
+      "end": "2021-02-02 15:00:00",
+      "name": "Adrift in the Harbor",
+      "shortName": "Ganyu",
+      "featuredKeys": [
+        "ganyu"
+      ],
+      "version": "1.2",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2021-01-12 18:00:00",
+      "end": "2021-02-02 15:00:00",
+      "name": "Epitome Invocation",
+      "shortName": "Amos",
+      "featuredKeys": [
+        "amos_bow",
+        "skyward_pride"
+      ],
+      "version": "1.2",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2021-02-03 06:00:00",
+      "end": "2021-02-17 16:00:00",
+      "name": "Invitation to Mundane Life",
+      "shortName": "Xiao",
+      "featuredKeys": [
+        "xiao"
+      ],
+      "version": "1.3",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2021-02-03 06:00:00",
+      "end": "2021-02-23 16:00:00",
+      "name": "Epitome Invocation",
+      "shortName": "Primordial",
+      "featuredKeys": [
+        "primordial_jade_winged-spear",
+        "primordial_jade_cutter"
+      ],
+      "version": "1.3",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2021-02-17 18:00:00",
+      "end": "2021-03-02 16:00:00",
+      "name": "Dance of Lanterns",
+      "shortName": "Keqing",
+      "featuredKeys": [
+        "keqing"
+      ],
+      "version": "1.3",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2021-02-23 18:00:00",
+      "end": "2021-03-16 15:00:00",
+      "name": "Epitome Invocation",
+      "shortName": "Homa",
+      "featuredKeys": [
+        "wolfs_gravestone",
+        "staff_of_homa"
+      ],
+      "version": "1.3",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2021-03-02 18:00:00",
+      "end": "2021-03-16 15:00:00",
+      "name": "Moment of Bloom",
+      "shortName": "Hu Tao",
+      "featuredKeys": [
+        "hu_tao"
+      ],
+      "version": "1.3",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2021-03-17 06:00:00",
+      "end": "2021-04-06 16:00:00",
+      "name": "Ballad in Goblets",
+      "shortName": "Venti",
+      "featuredKeys": [
+        "venti"
+      ],
+      "version": "1.4",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2021-03-17 06:00:00",
+      "end": "2021-04-06 16:00:00",
+      "name": "Epitome Invocation",
+      "shortName": "Elegy",
+      "featuredKeys": [
+        "elegy_for_the_end",
+        "skyward_blade"
+      ],
+      "version": "1.4",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2021-04-06 18:00:00",
+      "end": "2021-04-27 15:00:00",
+      "name": "Farewell of Snezhnaya",
+      "shortName": "Tartaglia",
+      "featuredKeys": [
+        "tartaglia"
+      ],
+      "version": "1.4",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2021-04-06 18:00:00",
+      "end": "2021-04-27 15:00:00",
+      "name": "Epitome Invocation",
+      "shortName": "Skyward",
+      "featuredKeys": [
+        "skyward_harp",
+        "lost_prayer_to_the_sacred_winds"
+      ],
+      "version": "1.4",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2021-04-28 06:00:00",
+      "end": "2021-05-18 17:59:59",
+      "name": "Gentry of Hermitage",
+      "shortName": "Zhongli",
+      "featuredKeys": [
+        "zhongli"
+      ],
+      "version": "1.5",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2021-04-28 06:00:00",
+      "end": "2021-05-18 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Summit",
+      "featuredKeys": [
+        "summit_shaper",
+        "memory_of_dust"
+      ],
+      "version": "1.5",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2021-05-18 18:00:00",
+      "end": "2021-06-08 15:00:00",
+      "name": "Born of Ocean Swell",
+      "shortName": "Eula",
+      "featuredKeys": [
+        "eula"
+      ],
+      "version": "1.5",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2021-05-18 18:00:00",
+      "end": "2021-06-08 15:00:00",
+      "name": "Epitome Invocation",
+      "shortName": "Pines",
+      "featuredKeys": [
+        "song_of_broken_pines",
+        "aquila_favonia"
+      ],
+      "version": "1.5",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2021-06-09 06:00:00",
+      "end": "2021-06-29 17:59:59",
+      "name": "Sparkling Steps",
+      "shortName": "Klee",
+      "featuredKeys": [
+        "klee"
+      ],
+      "version": "1.6",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2021-06-09 06:00:00",
+      "end": "2021-06-29 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Lost Prayer",
+      "featuredKeys": [
+        "lost_prayer_to_the_sacred_winds",
+        "skyward_pride"
+      ],
+      "version": "1.6",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2021-06-29 18:00:00",
+      "end": "2021-07-20 14:59:59",
+      "name": "Leaves in the Wind",
+      "shortName": "Kazuha",
+      "featuredKeys": [
+        "kaedehara_kazuha"
+      ],
+      "version": "1.6",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2021-06-29 18:00:00",
+      "end": "2021-07-20 14:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Freedom-Sworn",
+      "featuredKeys": [
+        "freedom-sworn",
+        "skyward_atlas"
+      ],
+      "version": "1.6",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2021-07-21 06:00:00",
+      "end": "2021-08-10 17:59:59",
+      "name": "The Herons Court",
+      "shortName": "Ayaka",
+      "featuredKeys": [
+        "kamisato_ayaka"
+      ],
+      "version": "2.0",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2021-07-21 06:00:00",
+      "end": "2021-08-10 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Mistsplitter",
+      "featuredKeys": [
+        "mistsplitter_reforged",
+        "skyward_spine"
+      ],
+      "version": "2.0",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2021-08-10 18:00:00",
+      "end": "2021-08-31 14:59:59",
+      "name": "Tapestry of Golden Flames",
+      "shortName": "Yoimiya",
+      "featuredKeys": [
+        "yoimiya"
+      ],
+      "version": "2.0",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2021-08-10 18:00:00",
+      "end": "2021-08-31 14:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Thundering Pulse",
+      "featuredKeys": [
+        "thundering_pulse",
+        "skyward_blade"
+      ],
+      "version": "2.0",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2021-09-01 06:00:00",
+      "end": "2021-09-21 17:59:59",
+      "name": "Reign of Serenity",
+      "shortName": "Raiden",
+      "featuredKeys": [
+        "raiden_shogun"
+      ],
+      "version": "2.1",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2021-09-01 06:00:00",
+      "end": "2021-09-21 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Engulfing",
+      "featuredKeys": [
+        "engulfing_lightning",
+        "the_unforged"
+      ],
+      "version": "2.1",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2021-09-21 18:00:00",
+      "end": "2021-10-12 14:59:59",
+      "name": "Drifting Luminescence",
+      "shortName": "Kokomi",
+      "featuredKeys": [
+        "sangonomiya_kokomi"
+      ],
+      "version": "2.1",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2021-09-21 18:00:00",
+      "end": "2021-10-12 14:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Moonglow",
+      "featuredKeys": [
+        "primordial_jade_cutter",
+        "everlasting_moonglow"
+      ],
+      "version": "2.1",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2021-10-13 06:00:00",
+      "end": "2021-11-02 17:59:59",
+      "name": "Farewell of Snezhnaya",
+      "shortName": "Tartaglia",
+      "featuredKeys": [
+        "tartaglia"
+      ],
+      "version": "2.2",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2021-10-13 06:00:00",
+      "end": "2021-11-02 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Polar Star",
+      "featuredKeys": [
+        "polar_star",
+        "memory_of_dust"
+      ],
+      "version": "2.2",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2021-11-02 18:00:00",
+      "end": "2021-11-23 14:59:59",
+      "name": "Moment of Bloom",
+      "shortName": "Hu Tao",
+      "featuredKeys": [
+        "hu_tao"
+      ],
+      "version": "2.2",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2021-11-02 18:00:00",
+      "end": "2021-11-23 14:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Homa",
+      "featuredKeys": [
+        "staff_of_homa",
+        "elegy_for_the_end"
+      ],
+      "version": "2.2",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2021-11-24 06:00:00",
+      "end": "2021-12-14 17:59:59",
+      "name": "Secretum Secretorum",
+      "shortName": "Albedo",
+      "featuredKeys": [
+        "albedo"
+      ],
+      "version": "2.3",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2021-11-24 06:00:00",
+      "end": "2021-12-14 17:59:59",
+      "name": "Born of Ocean Swell",
+      "shortName": "Eula",
+      "featuredKeys": [
+        "eula"
+      ],
+      "version": "2.3",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2021-11-24 06:00:00",
+      "end": "2021-12-14 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Freedom",
+      "featuredKeys": [
+        "freedom-sworn",
+        "song_of_broken_pines"
+      ],
+      "version": "2.3",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2021-12-14 18:00:00",
+      "end": "2022-01-04 17:59:59",
+      "name": "Oni's Royale",
+      "shortName": "Itto",
+      "featuredKeys": [
+        "arataki_itto"
+      ],
+      "version": "2.3",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2021-12-14 18:00:00",
+      "end": "2022-01-04 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Redhorn",
+      "featuredKeys": [
+        "redhorn_stonethresher",
+        "skyward_harp"
+      ],
+      "version": "2.3",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2022-01-05 06:00:00",
+      "end": "2022-01-25 17:59:59",
+      "name": "The Transcendent One Returns",
+      "shortName": "Shenhe",
+      "featuredKeys": [
+        "shenhe"
+      ],
+      "version": "2.4",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2022-01-05 06:00:00",
+      "end": "2022-01-25 17:59:59",
+      "name": "Invitation to Mundane Life",
+      "shortName": "Xiao",
+      "featuredKeys": [
+        "xiao"
+      ],
+      "version": "2.4",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2022-01-05 06:00:00",
+      "end": "2022-01-25 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Queller",
+      "featuredKeys": [
+        "calamity_queller",
+        "primordial_jade_winged-spear"
+      ],
+      "version": "2.4",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2022-01-25 18:00:00",
+      "end": "2022-02-15 14:59:59",
+      "name": "Gentry of Hermitage",
+      "shortName": "Zhongli",
+      "featuredKeys": [
+        "zhongli"
+      ],
+      "version": "2.4",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2022-01-25 18:00:00",
+      "end": "2022-02-15 14:59:59",
+      "name": "Adrift in the Harbor",
+      "shortName": "Ganyu",
+      "featuredKeys": [
+        "ganyu"
+      ],
+      "version": "2.4",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2022-01-25 18:00:00",
+      "end": "2022-02-15 14:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Amos",
+      "featuredKeys": [
+        "amos_bow",
+        "vortex_vanquisher"
+      ],
+      "version": "2.4",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2022-02-16 06:00:00",
+      "end": "2022-03-08 17:59:59",
+      "name": "Everbloom Violet",
+      "shortName": "Yae",
+      "featuredKeys": [
+        "yae_miko"
+      ],
+      "version": "2.5",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2022-02-16 06:00:00",
+      "end": "2022-03-08 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Verity",
+      "featuredKeys": [
+        "kaguras_verity",
+        "primordial_jade_cutter"
+      ],
+      "version": "2.5",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2022-03-08 18:00:00",
+      "end": "2022-03-29 14:59:59",
+      "name": "Reign of Serenity",
+      "shortName": "Raiden",
+      "featuredKeys": [
+        "raiden_shogun"
+      ],
+      "version": "2.5",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2022-03-08 18:00:00",
+      "end": "2022-03-29 14:59:59",
+      "name": "Drifting Luminescence",
+      "shortName": "Kokomi",
+      "featuredKeys": [
+        "sangonomiya_kokomi"
+      ],
+      "version": "2.5",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2022-03-08 18:00:00",
+      "end": "2022-03-29 14:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Engulfing",
+      "featuredKeys": [
+        "engulfing_lightning",
+        "everlasting_moonglow"
+      ],
+      "version": "2.5",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2022-03-30 06:00:00",
+      "end": "2022-04-19 17:59:59",
+      "name": "Azure Excursion",
+      "shortName": "Ayato",
+      "featuredKeys": [
+        "kamisato_ayato"
+      ],
+      "version": "2.6",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2022-03-30 06:00:00",
+      "end": "2022-04-19 17:59:59",
+      "name": "Ballad in Goblets",
+      "shortName": "Venti",
+      "featuredKeys": [
+        "venti"
+      ],
+      "version": "2.6",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2022-03-30 06:00:00",
+      "end": "2022-04-19 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Haran",
+      "featuredKeys": [
+        "haran_geppaku_futsu",
+        "elegy_for_the_end"
+      ],
+      "version": "2.6",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2022-04-19 18:00:00",
+      "end": "2022-05-31 05:59:59",
+      "name": "The Herons Court",
+      "shortName": "Ayaka",
+      "featuredKeys": [
+        "kamisato_ayaka"
+      ],
+      "version": "2.6",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2022-04-19 18:00:00",
+      "end": "2022-05-31 05:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Mistsplitter",
+      "featuredKeys": [
+        "mistsplitter_reforged",
+        "the_unforged"
+      ],
+      "version": "2.6",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2022-05-31 09:00:00",
+      "end": "2022-06-21 17:59:59",
+      "name": "Discerner of Enigmas",
+      "shortName": "Yelan",
+      "featuredKeys": [
+        "yelan"
+      ],
+      "version": "2.7",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2022-05-31 09:00:00",
+      "end": "2022-06-21 17:59:59",
+      "name": "Invitation to Mundane Life",
+      "shortName": "Xiao",
+      "featuredKeys": [
+        "xiao"
+      ],
+      "version": "2.7",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2022-05-31 09:00:00",
+      "end": "2022-06-21 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Aqua",
+      "featuredKeys": [
+        "aqua_simulacra",
+        "primordial_jade_winged-spear"
+      ],
+      "version": "2.7",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2022-06-21 18:00:00",
+      "end": "2022-07-12 14:59:59",
+      "name": "Oni's Royale",
+      "shortName": "Itto",
+      "featuredKeys": [
+        "arataki_itto"
+      ],
+      "version": "2.7",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2022-06-21 18:00:00",
+      "end": "2022-07-12 14:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Redhorn",
+      "featuredKeys": [
+        "redhorn_stonethresher",
+        "memory_of_dust"
+      ],
+      "version": "2.7",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2022-07-13 06:00:00",
+      "end": "2022-08-02 17:59:59",
+      "name": "Leaves in the Wind",
+      "shortName": "Kazuha",
+      "featuredKeys": [
+        "kaedehara_kazuha"
+      ],
+      "version": "2.8",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2022-07-13 06:00:00",
+      "end": "2022-08-02 17:59:59",
+      "name": "Sparkling Steps",
+      "shortName": "Klee",
+      "featuredKeys": [
+        "klee"
+      ],
+      "version": "2.8",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2022-07-13 06:00:00",
+      "end": "2022-08-02 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Freedom-Sworn",
+      "featuredKeys": [
+        "freedom-sworn",
+        "lost_prayer_to_the_sacred_winds"
+      ],
+      "version": "2.8",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2022-08-02 18:00:00",
+      "end": "2022-08-23 14:59:59",
+      "name": "Tapestry of Golden Flames",
+      "shortName": "Yoimiya",
+      "featuredKeys": [
+        "yoimiya"
+      ],
+      "version": "2.8",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2022-08-02 18:00:00",
+      "end": "2022-08-23 14:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Thundering",
+      "featuredKeys": [
+        "thundering_pulse",
+        "summit_shaper"
+      ],
+      "version": "2.8",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2022-08-24 06:00:00",
+      "end": "2022-09-09 17:59:59",
+      "name": "Viridescent Vigil",
+      "shortName": "Tighnari",
+      "featuredKeys": [
+        "tighnari"
+      ],
+      "version": "3.0",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2022-08-24 06:00:00",
+      "end": "2022-09-09 17:59:59",
+      "name": "Gentry of Hermitage",
+      "shortName": "Zhongli",
+      "featuredKeys": [
+        "zhongli"
+      ],
+      "version": "3.0",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2022-08-24 06:00:00",
+      "end": "2022-09-09 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Hunters",
+      "featuredKeys": [
+        "hunters_path",
+        "vortex_vanquisher"
+      ],
+      "version": "3.0",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2022-09-09 18:00:00",
+      "end": "2022-09-27 14:59:59",
+      "name": "Adrift in the Harbor",
+      "shortName": "Ganyu",
+      "featuredKeys": [
+        "ganyu"
+      ],
+      "version": "3.0",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2022-09-09 18:00:00",
+      "end": "2022-09-27 14:59:59",
+      "name": "Drifting Luminescence",
+      "shortName": "Kokomi",
+      "featuredKeys": [
+        "sangonomiya_kokomi"
+      ],
+      "version": "3.0",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2022-09-09 18:00:00",
+      "end": "2022-09-27 14:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Amos",
+      "featuredKeys": [
+        "amos_bow",
+        "everlasting_moonglow"
+      ],
+      "version": "3.0",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2022-09-28 06:00:00",
+      "end": "2022-10-14 17:59:59",
+      "name": "Twilight Arbiter",
+      "shortName": "Cyno",
+      "featuredKeys": [
+        "cyno"
+      ],
+      "version": "3.1",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2022-09-28 06:00:00",
+      "end": "2022-10-14 17:59:59",
+      "name": "Ballad in Goblets",
+      "shortName": "Venti",
+      "featuredKeys": [
+        "venti"
+      ],
+      "version": "3.1",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2022-09-28 06:00:00",
+      "end": "2022-10-14 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Scarlet",
+      "featuredKeys": [
+        "staff_of_the_scarlet_sands",
+        "elegy_for_the_end"
+      ],
+      "version": "3.1",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2022-10-14 18:00:00",
+      "end": "2022-11-01 14:59:59",
+      "name": "Twirling Lotus",
+      "shortName": "Nilou",
+      "featuredKeys": [
+        "nilou"
+      ],
+      "version": "3.1",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2022-10-14 18:00:00",
+      "end": "2022-11-01 14:59:59",
+      "name": "Secretum Secretorum",
+      "shortName": "Nilou",
+      "featuredKeys": [
+        "albedo"
+      ],
+      "version": "3.1",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2022-10-14 18:00:00",
+      "end": "2022-11-01 14:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Nisut",
+      "featuredKeys": [
+        "key_of_khaj-nisut",
+        "primordial_jade_cutter"
+      ],
+      "version": "3.1",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2022-11-02 06:00:00",
+      "end": "2022-11-18 17:59:59",
+      "name": "The Moongrass' Enlightenment",
+      "shortName": "Nahida",
+      "featuredKeys": [
+        "nahida"
+      ],
+      "version": "3.2",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2022-11-02 06:00:00",
+      "end": "2022-11-18 17:59:59",
+      "name": "Tapestry of Golden Flames",
+      "shortName": "Yoimiya",
+      "featuredKeys": [
+        "yoimiya"
+      ],
+      "version": "3.2",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2022-11-02 06:00:00",
+      "end": "2022-11-18 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Dreams",
+      "featuredKeys": [
+        "a_thousand_floating_dreams",
+        "thundering_pulse"
+      ],
+      "version": "3.2",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2022-11-18 18:00:00",
+      "end": "2022-12-06 14:59:59",
+      "name": "Everbloom Violet",
+      "shortName": "Yae Miko",
+      "featuredKeys": [
+        "yae_miko"
+      ],
+      "version": "3.2",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2022-11-18 18:00:00",
+      "end": "2022-12-06 14:59:59",
+      "name": "Farewell of Snezhnaya",
+      "shortName": "Tartaglia",
+      "featuredKeys": [
+        "tartaglia"
+      ],
+      "version": "3.2",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2022-11-18 18:00:00",
+      "end": "2022-12-06 14:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Kagura",
+      "featuredKeys": [
+        "kaguras_verity",
+        "polar_star"
+      ],
+      "version": "3.2",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2022-12-07 06:00:00",
+      "end": "2022-12-27 17:59:59",
+      "name": "From Ashes Reborn",
+      "shortName": "Wanderer",
+      "featuredKeys": [
+        "wanderer"
+      ],
+      "version": "3.3",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2022-12-07 06:00:00",
+      "end": "2022-12-27 17:59:59",
+      "name": "Oni's Royale",
+      "shortName": "Itto",
+      "featuredKeys": [
+        "arataki_itto"
+      ],
+      "version": "3.3",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2022-12-07 06:00:00",
+      "end": "2022-12-27 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Tulaytullah",
+      "featuredKeys": [
+        "tulaytullahs_remembrance",
+        "redhorn_stonethresher"
+      ],
+      "version": "3.3",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2022-12-27 18:00:00",
+      "end": "2023-01-17 14:59:59",
+      "name": "Reign of Serenity",
+      "shortName": "Raiden",
+      "featuredKeys": [
+        "raiden_shogun"
+      ],
+      "version": "3.3",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2022-12-27 18:00:00",
+      "end": "2023-01-17 14:59:59",
+      "name": "Azure Excursion",
+      "shortName": "Ayato",
+      "featuredKeys": [
+        "kamisato_ayato"
+      ],
+      "version": "3.3",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2022-12-27 18:00:00",
+      "end": "2023-01-17 14:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Egulfing",
+      "featuredKeys": [
+        "engulfing_lightning",
+        "haran_geppaku_futsu"
+      ],
+      "version": "3.3",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2023-01-18 06:00:00",
+      "end": "2023-02-07 17:59:59",
+      "name": "Caution in Confidence",
+      "shortName": "Alhaitham",
+      "featuredKeys": [
+        "alhaitham"
+      ],
+      "version": "3.4",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2023-01-18 06:00:00",
+      "end": "2023-02-07 17:59:59",
+      "name": "Invitation to Mundane Life",
+      "shortName": "Xiao",
+      "featuredKeys": [
+        "xiao"
+      ],
+      "version": "3.4",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2023-01-18 06:00:00",
+      "end": "2023-02-07 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Incision",
+      "featuredKeys": [
+        "light_of_foliar_incision",
+        "primordial_jade_winged-spear"
+      ],
+      "version": "3.4",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2023-02-07 18:00:00",
+      "end": "2023-02-28 14:59:59",
+      "name": "Moment of Bloom",
+      "shortName": "Hu Tao",
+      "featuredKeys": [
+        "hu_tao"
+      ],
+      "version": "3.4",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2023-02-07 18:00:00",
+      "end": "2023-02-28 14:59:59",
+      "name": "Discerner of Enigmas",
+      "shortName": "Yelan",
+      "featuredKeys": [
+        "yelan"
+      ],
+      "version": "3.4",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2023-02-07 18:00:00",
+      "end": "2023-02-28 14:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Homa",
+      "featuredKeys": [
+        "staff_of_homa",
+        "aqua_simulacra"
+      ],
+      "version": "3.4",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2023-03-01 06:00:00",
+      "end": "2023-03-21 17:59:59",
+      "name": "Auric Blaze",
+      "shortName": "Dehya",
+      "featuredKeys": [
+        "dehya"
+      ],
+      "version": "3.5",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2023-03-01 06:00:00",
+      "end": "2023-03-21 17:59:59",
+      "name": "Twilight Arbiter",
+      "shortName": "Cyno",
+      "featuredKeys": [
+        "cyno"
+      ],
+      "version": "3.5",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2023-03-01 06:00:00",
+      "end": "2023-03-21 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Incision",
+      "featuredKeys": [
+        "beacon_of_the_reed_sea",
+        "staff_of_the_scarlet_sands"
+      ],
+      "version": "3.5",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2023-03-21 18:00:00",
+      "end": "2023-04-11 14:59:59",
+      "name": "The Transcendent One Returns",
+      "shortName": "Shenhe",
+      "featuredKeys": [
+        "shenhe"
+      ],
+      "version": "3.5",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2023-03-21 18:00:00",
+      "end": "2023-04-11 14:59:59",
+      "name": "The Herons Court",
+      "shortName": "Shenhe",
+      "featuredKeys": [
+        "kamisato_ayaka"
+      ],
+      "version": "3.5",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2023-03-21 18:00:00",
+      "end": "2023-04-11 14:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Incision",
+      "featuredKeys": [
+        "calamity_queller",
+        "mistsplitter_reforged"
+      ],
+      "version": "3.5",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2023-04-12 06:00:00",
+      "end": "2023-05-02 17:59:59",
+      "name": "The Moongrass' Enlightenment",
+      "shortName": "Nahida",
+      "featuredKeys": [
+        "nahida"
+      ],
+      "version": "3.6",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2023-04-12 06:00:00",
+      "end": "2023-05-02 17:59:59",
+      "name": "Twirling Lotus",
+      "shortName": "Nilou",
+      "featuredKeys": [
+        "nilou"
+      ],
+      "version": "3.6",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2023-04-12 06:00:00",
+      "end": "2023-05-02 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Dreams",
+      "featuredKeys": [
+        "key_of_khaj-nisut",
+        "a_thousand_floating_dreams"
+      ],
+      "version": "3.6",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2023-05-02 18:00:00",
+      "end": "2023-05-23 14:59:59",
+      "name": "Immaculate Pulse",
+      "shortName": "Baizhu",
+      "featuredKeys": [
+        "baizhu"
+      ],
+      "version": "3.6",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2023-05-02 18:00:00",
+      "end": "2023-05-23 14:59:59",
+      "name": "Adrift in the Harbor",
+      "shortName": "Ganyu",
+      "featuredKeys": [
+        "ganyu"
+      ],
+      "version": "3.6",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2023-05-02 18:00:00",
+      "end": "2023-05-23 14:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "jadefalls_splendor",
+      "featuredKeys": [
+        "jadefalls_splendor",
+        "amos_bow"
+      ],
+      "version": "3.6",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2023-05-24 06:00:00",
+      "end": "2023-06-13 17:59:59",
+      "name": "Tapestry of Golden Flames",
+      "shortName": "Yoimiya",
+      "featuredKeys": [
+        "yoimiya"
+      ],
+      "version": "3.7",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2023-05-24 06:00:00",
+      "end": "2023-06-13 17:59:59",
+      "name": "Everbloom Violet",
+      "shortName": "Yae Miko",
+      "featuredKeys": [
+        "yae_miko"
+      ],
+      "version": "3.7",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2023-05-24 06:00:00",
+      "end": "2023-06-13 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Thundering",
+      "featuredKeys": [
+        "thundering_pulse",
+        "kaguras_verity"
+      ],
+      "version": "3.7",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2023-06-13 18:00:00",
+      "end": "2023-07-04 14:59:59",
+      "name": "Caution in Confidence",
+      "shortName": "Alhaitham",
+      "featuredKeys": [
+        "alhaitham"
+      ],
+      "version": "3.7",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2023-06-13 18:00:00",
+      "end": "2023-07-04 14:59:59",
+      "name": "Leaves in the Wind",
+      "shortName": "Kazuha",
+      "featuredKeys": [
+        "kaedehara_kazuha"
+      ],
+      "version": "3.7",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2023-06-13 18:00:00",
+      "end": "2023-07-04 14:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Freedom",
+      "featuredKeys": [
+        "freedom-sworn",
+        "light_of_foliar_incision"
+      ],
+      "version": "3.7",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2023-07-05 06:00:00",
+      "end": "2023-07-25 17:59:59",
+      "name": "Born of Ocean Swell",
+      "shortName": "Eula",
+      "featuredKeys": [
+        "eula"
+      ],
+      "version": "3.8",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2023-07-05 06:00:00",
+      "end": "2023-07-25 17:59:59",
+      "name": "Sparkling Steps",
+      "shortName": "Klee",
+      "featuredKeys": [
+        "klee"
+      ],
+      "version": "3.8",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2023-07-05 06:00:00",
+      "end": "2023-07-25 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Freedom",
+      "featuredKeys": [
+        "song_of_broken_pines",
+        "lost_prayer_to_the_sacred_winds"
+      ],
+      "version": "3.8",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2023-07-25 18:00:00",
+      "end": "2023-08-15 17:59:59",
+      "name": "Drifting Luminescence",
+      "shortName": "Kokomi",
+      "featuredKeys": [
+        "sangonomiya_kokomi"
+      ],
+      "version": "3.8",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2023-07-25 18:00:00",
+      "end": "2023-08-15 17:59:59",
+      "name": "From Ashes Reborn",
+      "shortName": "Wanderer",
+      "featuredKeys": [
+        "wanderer"
+      ],
+      "version": "3.8",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2023-07-25 18:00:00",
+      "end": "2023-08-15 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Moonglow",
+      "featuredKeys": [
+        "everlasting_moonglow",
+        "tulaytullahs_remembrance"
+      ],
+      "version": "3.8",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2023-08-16 06:00:00",
+      "end": "2023-09-05 17:59:59",
+      "name": "Conjuring Chiaroscuro",
+      "shortName": "Lyney",
+      "featuredKeys": [
+        "lyney"
+      ],
+      "version": "4.0",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2023-08-16 06:00:00",
+      "end": "2023-09-05 17:59:59",
+      "name": "Discerner of Enigmas",
+      "shortName": "Yelan",
+      "featuredKeys": [
+        "yelan"
+      ],
+      "version": "4.0",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2023-08-16 06:00:00",
+      "end": "2023-09-05 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Great Magic",
+      "featuredKeys": [
+        "the_first_great_magic",
+        "aqua_simulacra"
+      ],
+      "version": "4.0",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2023-09-05 18:00:00",
+      "end": "2023-09-26 14:59:59",
+      "name": "Gentry of Hermitage",
+      "shortName": "Zhongli",
+      "featuredKeys": [
+        "tartaglia"
+      ],
+      "version": "4.0",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2023-09-05 18:00:00",
+      "end": "2023-09-26 14:59:59",
+      "name": "Farewell of Snezhnaya",
+      "shortName": "Tartaglia",
+      "featuredKeys": [
+        "zhongli"
+      ],
+      "version": "4.0",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2023-09-05 18:00:00",
+      "end": "2023-09-26 14:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Polar",
+      "featuredKeys": [
+        "polar_star",
+        "vortex_vanquisher"
+      ],
+      "version": "4.0",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2023-09-27 06:00:00",
+      "end": "2023-10-17 17:59:59",
+      "name": "Decree of the Deeps",
+      "shortName": "Neuvillette",
+      "featuredKeys": [
+        "neuvillette"
+      ],
+      "version": "4.1",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2023-09-27 06:00:00",
+      "end": "2023-10-17 17:59:59",
+      "name": "Moment of Bloom",
+      "shortName": "Hu Tao",
+      "featuredKeys": [
+        "hu_tao"
+      ],
+      "version": "4.1",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2023-09-27 06:00:00",
+      "end": "2023-10-17 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Polar",
+      "featuredKeys": [
+        "tome_of_the_eternal_flow",
+        "staff_of_homa"
+      ],
+      "version": "4.1",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2023-10-17 18:00:00",
+      "end": "2023-11-07 14:59:59",
+      "name": "Tempestuous Destiny",
+      "shortName": "Wriothesley",
+      "featuredKeys": [
+        "wriothesley"
+      ],
+      "version": "4.1",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2023-10-17 18:00:00",
+      "end": "2023-11-07 14:59:59",
+      "name": "Ballad in Goblets",
+      "shortName": "Venti",
+      "featuredKeys": [
+        "venti"
+      ],
+      "version": "4.1",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2023-10-17 18:00:00",
+      "end": "2023-11-07 14:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Polar",
+      "featuredKeys": [
+        "cashflow_supervision",
+        "elegy_for_the_end"
+      ],
+      "version": "4.1",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2023-11-08 06:00:00",
+      "end": "2023-11-28 17:59:59",
+      "name": "Chanson of Many Waters",
+      "shortName": "Furina",
+      "featuredKeys": [
+        "furina"
+      ],
+      "version": "4.2",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2023-11-08 06:00:00",
+      "end": "2023-11-28 17:59:59",
+      "name": "Immaculate Pulse",
+      "shortName": "Baizhu",
+      "featuredKeys": [
+        "baizhu"
+      ],
+      "version": "4.2",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2023-11-08 06:00:00",
+      "end": "2023-11-28 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Tranquil",
+      "featuredKeys": [
+        "splendor_of_tranquil_waters",
+        "jadefalls_splendor"
+      ],
+      "version": "4.2",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2023-11-28 18:00:00",
+      "end": "2023-12-19 14:59:59",
+      "name": "Twilight Arbiter",
+      "shortName": "Cyno",
+      "featuredKeys": [
+        "cyno"
+      ],
+      "version": "4.2",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2023-11-28 18:00:00",
+      "end": "2023-12-19 14:59:59",
+      "name": "Azure Excursion",
+      "shortName": "Ayato",
+      "featuredKeys": [
+        "kamisato_ayato"
+      ],
+      "version": "4.2",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2023-11-28 18:00:00",
+      "end": "2023-12-19 14:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Scarlet",
+      "featuredKeys": [
+        "staff_of_the_scarlet_sands",
+        "haran_geppaku_futsu"
+      ],
+      "version": "4.2",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2023-12-20 06:00:00",
+      "end": "2024-01-09 17:59:59",
+      "name": "In the Name of the Rosula",
+      "shortName": "Navia",
+      "featuredKeys": [
+        "navia"
+      ],
+      "version": "4.3",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2023-12-20 06:00:00",
+      "end": "2024-01-09 17:59:59",
+      "name": "The Heron's Court",
+      "shortName": "Ayaka",
+      "featuredKeys": [
+        "kamisato_ayaka"
+      ],
+      "version": "4.3",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2023-12-20 06:00:00",
+      "end": "2024-01-09 17:59:59",
+      "name": "Epitome Invocation",
+      "shortName": "Verdict",
+      "featuredKeys": [
+        "verdict",
+        "mistsplitter_reforged"
+      ],
+      "version": "4.3",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2024-01-09 18:00:00",
+      "end": "2024-01-30 14:59:00",
+      "name": "Reign of Serenity",
+      "shortName": "Raiden",
+      "featuredKeys": [
+        "raiden_shogun"
+      ],
+      "version": "4.3",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2024-01-09 18:00:00",
+      "end": "2024-01-30 14:59:00",
+      "name": "Tapestry of Golden Flames",
+      "shortName": "Yoimiya",
+      "featuredKeys": [
+        "yoimiya"
+      ],
+      "version": "4.3",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2024-01-09 18:00:00",
+      "end": "2024-01-30 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Engulfing",
+      "featuredKeys": [
+        "engulfing_lightning",
+        "thundering_pulse"
+      ],
+      "version": "4.3",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2024-01-31 06:00:00",
+      "end": "2024-02-20 17:59:00",
+      "name": "The Crane Soars Skyward",
+      "shortName": "Xianyun",
+      "featuredKeys": [
+        "xianyun"
+      ],
+      "version": "4.4",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2024-01-31 06:00:00",
+      "end": "2024-02-20 17:59:00",
+      "name": "The Moongrass' Enlightenment",
+      "shortName": "Nahida",
+      "featuredKeys": [
+        "nahida"
+      ],
+      "version": "4.4",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2024-01-31 06:00:00",
+      "end": "2024-02-20 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Crane",
+      "featuredKeys": [
+        "cranes_echoing_call",
+        "a_thousand_floating_dreams"
+      ],
+      "version": "4.4",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2024-02-20 18:00:00",
+      "end": "2024-03-12 14:59:00",
+      "name": "Invitation to Mundane Life",
+      "shortName": "Xiao",
+      "featuredKeys": [
+        "xiao"
+      ],
+      "version": "4.4",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2024-02-20 18:00:00",
+      "end": "2024-03-12 14:59:00",
+      "name": "Everbloom Violet",
+      "shortName": "Yae",
+      "featuredKeys": [
+        "yae_miko"
+      ],
+      "version": "4.4",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2024-02-20 18:00:00",
+      "end": "2024-03-12 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Primordial",
+      "featuredKeys": [
+        "primordial_jade_winged-spear",
+        "kaguras_verity"
+      ],
+      "version": "4.4",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2024-03-13 06:00:00",
+      "end": "2024-04-02 17:59:00",
+      "name": "Of Silken Clouds Woven",
+      "shortName": "Chiori",
+      "featuredKeys": [
+        "chiori"
+      ],
+      "version": "4.5",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2024-03-13 06:00:00",
+      "end": "2024-04-02 17:59:00",
+      "name": "Oni's Royale",
+      "shortName": "Itto",
+      "featuredKeys": [
+        "arataki_itto"
+      ],
+      "version": "4.5",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2024-03-13 06:00:00",
+      "end": "2024-04-02 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Misugiri",
+      "featuredKeys": [
+        "uraku_misugiri",
+        "redhorn_stonethresher"
+      ],
+      "version": "4.5",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2024-04-02 18:00:00",
+      "end": "2024-04-23 14:59:00",
+      "name": "Decree of the Deeps",
+      "shortName": "Neuvillette",
+      "featuredKeys": [
+        "neuvillette"
+      ],
+      "version": "4.5",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2024-04-02 18:00:00",
+      "end": "2024-04-23 14:59:00",
+      "name": "Leaves in the Wind",
+      "shortName": "Kazuha",
+      "featuredKeys": [
+        "kaedehara_kazuha"
+      ],
+      "version": "4.5",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2024-04-02 18:00:00",
+      "end": "2024-04-23 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Eternal",
+      "featuredKeys": [
+        "tome_of_the_eternal_flow",
+        "freedom-sworn"
+      ],
+      "version": "4.5",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2024-04-24 06:00:00",
+      "end": "2024-05-14 17:59:00",
+      "name": "The Hearth's Ashen Shadow",
+      "shortName": "Arlecchino",
+      "featuredKeys": [
+        "arlecchino"
+      ],
+      "version": "4.6",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2024-04-24 06:00:00",
+      "end": "2024-05-14 17:59:00",
+      "name": "Conjuring Chiaroscuro",
+      "shortName": "Lyney",
+      "featuredKeys": [
+        "lyney"
+      ],
+      "version": "4.6",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2024-04-24 06:00:00",
+      "end": "2024-05-14 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Crimson",
+      "featuredKeys": [
+        "crimson_moons_semblance",
+        "the_first_great_magic"
+      ],
+      "version": "4.6",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2024-05-14 18:00:00",
+      "end": "2024-06-04 14:59:00",
+      "name": "From Ashes Reborn",
+      "shortName": "Wanderer",
+      "featuredKeys": [
+        "wanderer"
+      ],
+      "version": "4.6",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2024-05-14 18:00:00",
+      "end": "2024-06-04 14:59:00",
+      "name": "Immaculate Pulse",
+      "shortName": "Baizhu",
+      "featuredKeys": [
+        "baizhu"
+      ],
+      "version": "4.6",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2024-05-14 18:00:00",
+      "end": "2024-06-04 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Tulaytullah",
+      "featuredKeys": [
+        "tulaytullahs_remembrance",
+        "jadefalls_splendor"
+      ],
+      "version": "4.6",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2024-06-05 06:00:00",
+      "end": "2024-06-25 17:59:00",
+      "name": "Illuminating Lightning",
+      "shortName": "Clorinde",
+      "featuredKeys": [
+        "clorinde"
+      ],
+      "version": "4.7",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2024-06-05 06:00:00",
+      "end": "2024-06-25 17:59:00",
+      "name": "Caution in Confidence",
+      "shortName": "Alhaitham",
+      "featuredKeys": [
+        "alhaitham"
+      ],
+      "version": "4.7",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2024-06-05 06:00:00",
+      "end": "2024-06-25 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Absolution",
+      "featuredKeys": [
+        "absolution",
+        "light_of_foliar_incision"
+      ],
+      "version": "4.7",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2024-06-25 18:00:00",
+      "end": "2024-07-16 14:59:00",
+      "name": "Romaritime Meluserenity",
+      "shortName": "Sigewinne",
+      "featuredKeys": [
+        "sigewinne"
+      ],
+      "version": "4.7",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2024-06-25 18:00:00",
+      "end": "2024-07-16 14:59:00",
+      "name": "Chanson of Many Waters",
+      "shortName": "Furina",
+      "featuredKeys": [
+        "furina"
+      ],
+      "version": "4.7",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2024-06-25 18:00:00",
+      "end": "2024-07-16 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Silvershower",
+      "featuredKeys": [
+        "silvershower_heartstrings",
+        "splendor_of_tranquil_waters"
+      ],
+      "version": "4.7",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2024-07-17 06:00:00",
+      "end": "2024-08-06 17:59:00",
+      "name": "In the Name of the Rosula",
+      "shortName": "Navia",
+      "featuredKeys": [
+        "navia"
+      ],
+      "version": "4.8",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2024-07-17 06:00:00",
+      "end": "2024-08-06 17:59:00",
+      "name": "Twirling Lotus",
+      "shortName": "Nilou",
+      "featuredKeys": [
+        "nilou"
+      ],
+      "version": "4.8",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2024-07-17 06:00:00",
+      "end": "2024-08-06 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Verdict",
+      "featuredKeys": [
+        "verdict",
+        "key_of_khaj-nisut"
+      ],
+      "version": "4.8",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2024-08-06 18:00:00",
+      "end": "2024-08-27 14:59:00",
+      "name": "Ambrosial Essence",
+      "shortName": "Emilie",
+      "featuredKeys": [
+        "emilie"
+      ],
+      "version": "4.8",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2024-08-06 18:00:00",
+      "end": "2024-08-27 14:59:00",
+      "name": "Discerner of Enigmas",
+      "shortName": "Yelan",
+      "featuredKeys": [
+        "yelan"
+      ],
+      "version": "4.8",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2024-08-06 18:00:00",
+      "end": "2024-08-27 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Lumidouce",
+      "featuredKeys": [
+        "lumidouce_elegy",
+        "aqua_simulacra"
+      ],
+      "version": "4.8",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2024-08-28 06:00:00",
+      "end": "2024-09-17 17:59:00",
+      "name": "Sharktacular Surfari",
+      "shortName": "Mualani",
+      "featuredKeys": [
+        "mualani"
+      ],
+      "version": "5.0",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2024-08-28 06:00:00",
+      "end": "2024-09-17 17:59:00",
+      "name": "Leaves in the Wind",
+      "shortName": "Kazuha",
+      "featuredKeys": [
+        "kaedehara_kazuha"
+      ],
+      "version": "5.0",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2024-08-28 06:00:00",
+      "end": "2024-09-17 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Surf's Up",
+      "featuredKeys": [
+        "surfs_up",
+        "freedom-sworn"
+      ],
+      "version": "5.0",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2024-09-17 18:00:00",
+      "end": "2024-10-08 14:59:00",
+      "name": "Seeker of Flame-Wrought Secrets",
+      "shortName": "Kinich",
+      "featuredKeys": [
+        "kinich"
+      ],
+      "version": "5.0",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2024-09-17 18:00:00",
+      "end": "2024-10-08 14:59:00",
+      "name": "Reign of Serenity",
+      "shortName": "Raiden",
+      "featuredKeys": [
+        "raiden_shogun"
+      ],
+      "version": "5.0",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2024-09-17 18:00:00",
+      "end": "2024-10-08 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Mountain King",
+      "featuredKeys": [
+        "fang_of_the_mountain_king",
+        "engulfing_lightning"
+      ],
+      "version": "5.0",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2024-10-09 06:00:00",
+      "end": "2024-10-29 17:59:00",
+      "name": "Forgefire's Blessing",
+      "shortName": "Xilonen",
+      "featuredKeys": [
+        "xilonen"
+      ],
+      "version": "5.1",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2024-10-09 06:00:00",
+      "end": "2024-10-29 17:59:00",
+      "name": "Of Silken Clouds Woven",
+      "shortName": "Chiori",
+      "featuredKeys": [
+        "chiori"
+      ],
+      "version": "5.1",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2024-10-09 06:00:00",
+      "end": "2024-10-29 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Peak",
+      "featuredKeys": [
+        "peak_patrol_song",
+        "uraku_misugiri"
+      ],
+      "version": "5.1",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2024-10-29 18:00:00",
+      "end": "2024-11-19 14:59:00",
+      "name": "The Moongrass' Enlightenment",
+      "shortName": "Nahida",
+      "featuredKeys": [
+        "nahida"
+      ],
+      "version": "5.1",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2024-10-29 18:00:00",
+      "end": "2024-11-19 14:59:00",
+      "name": "Moment of Bloom",
+      "shortName": "Hu Tao",
+      "featuredKeys": [
+        "hu_tao"
+      ],
+      "version": "5.1",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2024-10-29 18:00:00",
+      "end": "2024-11-19 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Dreams",
+      "featuredKeys": [
+        "a_thousand_floating_dreams",
+        "staff_of_homa"
+      ],
+      "version": "5.1",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2024-11-20 06:00:00",
+      "end": "2024-12-10 17:59:00",
+      "name": "Piercing Shot's Crimson Wake",
+      "shortName": "Chasca",
+      "featuredKeys": [
+        "chasca"
+      ],
+      "version": "5.2",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2024-11-20 06:00:00",
+      "end": "2024-12-10 17:59:00",
+      "name": "Conjuring Chiaroscuro",
+      "shortName": "Lyney",
+      "featuredKeys": [
+        "lyney"
+      ],
+      "version": "5.2",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2024-11-20 06:00:00",
+      "end": "2024-12-10 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Astral",
+      "featuredKeys": [
+        "astral_vultures_crimson_plumage",
+        "the_first_great_magic"
+      ],
+      "version": "5.2",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2024-12-10 18:00:00",
+      "end": "2024-12-31 14:59:00",
+      "name": "Decree of the Deeps",
+      "shortName": "Neuvillette",
+      "featuredKeys": [
+        "neuvillette"
+      ],
+      "version": "5.2",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2024-12-10 18:00:00",
+      "end": "2024-12-31 14:59:00",
+      "name": "Gentry of Hermitage",
+      "shortName": "Zhongli",
+      "featuredKeys": [
+        "zhongli"
+      ],
+      "version": "5.2",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2024-12-10 18:00:00",
+      "end": "2024-12-31 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Tome",
+      "featuredKeys": [
+        "tome_of_the_eternal_flow",
+        "vortex_vanquisher"
+      ],
+      "version": "5.2",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2025-01-01 06:00:00",
+      "end": "2025-01-21 17:59:00",
+      "name": "Ancient Flame Ablaze",
+      "shortName": "Mavuika",
+      "featuredKeys": [
+        "mavuika"
+      ],
+      "version": "5.3",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2025-01-01 06:00:00",
+      "end": "2025-01-21 17:59:00",
+      "name": "Starry Night's Whispers",
+      "shortName": "Citlali",
+      "featuredKeys": [
+        "citlali"
+      ],
+      "version": "5.3",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2025-01-01 06:00:00",
+      "end": "2025-01-21 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Blazing",
+      "featuredKeys": [
+        "a_thousand_blazing_suns",
+        "starcallers_watch"
+      ],
+      "version": "5.3",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2025-01-21 18:00:00",
+      "end": "2025-02-11 14:59:00",
+      "name": "The Hearth's Ashen Shadow",
+      "shortName": "Arlecchino",
+      "featuredKeys": [
+        "arlecchino"
+      ],
+      "version": "5.3",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2025-01-21 18:00:00",
+      "end": "2025-02-11 14:59:00",
+      "name": "Illuminating Lightning",
+      "shortName": "Clorinde",
+      "featuredKeys": [
+        "clorinde"
+      ],
+      "version": "5.3",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2025-01-21 18:00:00",
+      "end": "2025-02-11 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Blazing",
+      "featuredKeys": [
+        "crimson_moons_semblance",
+        "absolution"
+      ],
+      "version": "5.3",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2025-02-12 06:00:00",
+      "end": "2025-03-04 17:59:00",
+      "name": "Dawn's Drifting Reverie",
+      "shortName": "Mizuki",
+      "featuredKeys": [
+        "yumemizuki_mizuki"
+      ],
+      "version": "5.4",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2025-02-12 06:00:00",
+      "end": "2025-03-04 17:59:00",
+      "name": "Romaritime Meluserenity",
+      "shortName": "Sigewinne",
+      "featuredKeys": [
+        "sigewinne"
+      ],
+      "version": "5.4",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2025-02-12 06:00:00",
+      "end": "2025-03-04 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Blazing",
+      "featuredKeys": [
+        "sunny_morning_sleep-in",
+        "silvershower_heartstrings"
+      ],
+      "version": "5.4",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2025-03-04 18:00:00",
+      "end": "2025-03-25 14:59:00",
+      "name": "Tempestuous Destiny",
+      "shortName": "Wriothesley",
+      "featuredKeys": [
+        "wriothesley"
+      ],
+      "version": "5.4",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2025-03-04 18:00:00",
+      "end": "2025-03-25 14:59:00",
+      "name": "Chanson of Many Waters",
+      "shortName": "Furina",
+      "featuredKeys": [
+        "furina"
+      ],
+      "version": "5.4",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2025-03-04 18:00:00",
+      "end": "2025-03-25 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Splendor",
+      "featuredKeys": [
+        "splendor_of_tranquil_waters",
+        "cashflow_supervision"
+      ],
+      "version": "5.4",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2025-03-26 06:00:00",
+      "end": "2025-04-15 17:59:00",
+      "name": "Cornucopia of Contention",
+      "shortName": "Varesa",
+      "featuredKeys": [
+        "varesa"
+      ],
+      "version": "5.5",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2025-03-26 06:00:00",
+      "end": "2025-04-15 17:59:00",
+      "name": "The Crane Soars Skyward",
+      "shortName": "Xianyun",
+      "featuredKeys": [
+        "xianyun"
+      ],
+      "version": "5.5",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2025-03-26 06:00:00",
+      "end": "2025-04-15 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Vivid",
+      "featuredKeys": [
+        "vivid_notions",
+        "cranes_echoing_call"
+      ],
+      "version": "5.5",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2025-04-15 18:00:00",
+      "end": "2025-05-06 14:59:00",
+      "name": "Forgefire's Blessing",
+      "shortName": "Xilonen",
+      "featuredKeys": [
+        "xilonen"
+      ],
+      "version": "5.5",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2025-04-15 18:00:00",
+      "end": "2025-05-06 14:59:00",
+      "name": "Ballad in Goblets",
+      "shortName": "Xilonen",
+      "featuredKeys": [
+        "venti"
+      ],
+      "version": "5.5",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2025-04-15 18:00:00",
+      "end": "2025-05-06 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Vivid",
+      "featuredKeys": [
+        "peak_patrol_song",
+        "elegy_for_the_end"
+      ],
+      "version": "5.5",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2025-05-07 06:00:00",
+      "end": "2025-05-27 17:59:00",
+      "name": "La Chanson Cerise",
+      "shortName": "Escoffier",
+      "featuredKeys": [
+        "escoffier"
+      ],
+      "version": "5.6",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2025-05-07 06:00:00",
+      "end": "2025-05-27 17:59:00",
+      "name": "In the Name of the Rosula",
+      "shortName": "Navia",
+      "featuredKeys": [
+        "navia"
+      ],
+      "version": "5.6",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2025-05-07 06:00:00",
+      "end": "2025-05-27 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Scents",
+      "featuredKeys": [
+        "symphonist_of_scents",
+        "verdict"
+      ],
+      "version": "5.6",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2025-05-27 18:00:00",
+      "end": "2025-06-17 14:59:00",
+      "name": "Seeker of Flame-Wrought Secrets",
+      "shortName": "Kinich",
+      "featuredKeys": [
+        "kinich"
+      ],
+      "version": "5.6",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2025-05-27 18:00:00",
+      "end": "2025-06-17 14:59:00",
+      "name": "Reign of Serenity",
+      "shortName": "Raiden",
+      "featuredKeys": [
+        "raiden_shogun"
+      ],
+      "version": "5.6",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2025-05-27 18:00:00",
+      "end": "2025-06-17 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Mountain King",
+      "featuredKeys": [
+        "fang_of_the_mountain_king",
+        "engulfing_lightning"
+      ],
+      "version": "5.6",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2025-06-18 06:00:00",
+      "end": "2025-07-08 17:59:00",
+      "name": "Void Star's Advent",
+      "shortName": "Skirk",
+      "featuredKeys": [
+        "skirk"
+      ],
+      "version": "5.7",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2025-06-18 06:00:00",
+      "end": "2025-07-08 17:59:00",
+      "name": "The Transcendent One Returns",
+      "shortName": "Shenhe",
+      "featuredKeys": [
+        "shenhe"
+      ],
+      "version": "5.7",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2025-06-18 06:00:00",
+      "end": "2025-07-08 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Azurelight",
+      "featuredKeys": [
+        "azurelight",
+        "calamity_queller"
+      ],
+      "version": "5.7",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2025-07-08 18:00:00",
+      "end": "2025-07-29 14:59:00",
+      "name": "Ancient Flame Ablaze",
+      "shortName": "Mavuika",
+      "featuredKeys": [
+        "mavuika"
+      ],
+      "version": "5.7",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2025-07-08 18:00:00",
+      "end": "2025-07-29 14:59:00",
+      "name": "Ambrosial Essence",
+      "shortName": "Emilie",
+      "featuredKeys": [
+        "emilie"
+      ],
+      "version": "5.7",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2025-07-08 18:00:00",
+      "end": "2025-07-29 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Blazing",
+      "featuredKeys": [
+        "a_thousand_blazing_suns",
+        "calamity_queller"
+      ],
+      "version": "5.7",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2025-07-30 06:00:00",
+      "end": "2025-08-19 17:59:00",
+      "name": "Astral Actuation",
+      "shortName": "Ineffa",
+      "featuredKeys": [
+        "ineffa"
+      ],
+      "version": "5.8",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2025-07-30 06:00:00",
+      "end": "2025-08-19 17:59:00",
+      "name": "Starry Night's Whispers",
+      "shortName": "Citlali",
+      "featuredKeys": [
+        "citlali"
+      ],
+      "version": "5.8",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2025-07-30 06:00:00",
+      "end": "2025-08-19 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Halo",
+      "featuredKeys": [
+        "fractured_halo",
+        "starcallers_watch"
+      ],
+      "version": "5.8",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2025-08-19 18:00:00",
+      "end": "2025-09-09 14:59:00",
+      "name": "Sharktacular Surfari",
+      "shortName": "Mualani",
+      "featuredKeys": [
+        "mualani"
+      ],
+      "version": "5.8",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2025-08-19 18:00:00",
+      "end": "2025-09-09 14:59:00",
+      "name": "Piercing Shot's Crimson Wake",
+      "shortName": "Chasca",
+      "featuredKeys": [
+        "chasca"
+      ],
+      "version": "5.8",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2025-08-19 18:00:00",
+      "end": "2025-09-09 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Surf's Up",
+      "featuredKeys": [
+        "surfs_up",
+        "astral_vultures_crimson_plumage"
+      ],
+      "version": "5.8",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2025-09-10 06:00:00",
+      "end": "2025-09-30 17:59:00",
+      "name": "Moonsong of the Groves",
+      "shortName": "Lauma",
+      "featuredKeys": [
+        "lauma"
+      ],
+      "version": "6.0",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2025-09-10 06:00:00",
+      "end": "2025-09-30 17:59:00",
+      "name": "The Moongrass' Enlightenment",
+      "shortName": "Nahida",
+      "featuredKeys": [
+        "nahida"
+      ],
+      "version": "6.0",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2025-09-10 06:00:00",
+      "end": "2025-09-30 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Nightweaver's",
+      "featuredKeys": [
+        "nightweavers_looking_glass",
+        "a_thousand_floating_dreams"
+      ],
+      "version": "6.0",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2025-09-30 18:00:00",
+      "end": "2025-10-21 17:59:00",
+      "name": "The Lone Light Knocks at Night",
+      "shortName": "Flins",
+      "featuredKeys": [
+        "flins"
+      ],
+      "version": "6.0",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2025-09-30 18:00:00",
+      "end": "2025-10-21 17:59:00",
+      "name": "Discerner of Enigmas",
+      "shortName": "Yelan",
+      "featuredKeys": [
+        "yelan"
+      ],
+      "version": "6.0",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2025-09-30 18:00:00",
+      "end": "2025-10-21 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Nightweaver's",
+      "featuredKeys": [
+        "bloodsoaked_ruins",
+        "aqua_simulacra"
+      ],
+      "version": "6.0",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2025-10-22 06:00:00",
+      "end": "2025-11-11 17:59:00",
+      "name": "Temptation of the Crimson Sands",
+      "shortName": "Nefer",
+      "featuredKeys": [
+        "nefer"
+      ],
+      "version": "6.1",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2025-10-22 06:00:00",
+      "end": "2025-11-11 17:59:00",
+      "name": "Chanson of Many Waters",
+      "shortName": "Furina",
+      "featuredKeys": [
+        "furina"
+      ],
+      "version": "6.1",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2025-10-22 06:00:00",
+      "end": "2025-11-11 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Truth",
+      "featuredKeys": [
+        "reliquary_of_truth",
+        "splendor_of_tranquil_waters"
+      ],
+      "version": "6.1",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2025-11-11 18:00:00",
+      "end": "2025-12-02 14:59:00",
+      "name": "The Hearth's Ashen Shadow",
+      "shortName": "Arlecchino",
+      "featuredKeys": [
+        "arlecchino"
+      ],
+      "version": "6.1",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2025-11-11 18:00:00",
+      "end": "2025-12-02 14:59:00",
+      "name": "Gentry of Hermitage",
+      "shortName": "Zhongli",
+      "featuredKeys": [
+        "zhongli"
+      ],
+      "version": "6.1",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2025-11-11 18:00:00",
+      "end": "2025-12-02 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Crimson",
+      "featuredKeys": [
+        "crimson_moons_semblance",
+        "vortex_vanquisher"
+      ],
+      "version": "6.1",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2025-12-03 06:00:00",
+      "end": "2025-12-23 17:59:00",
+      "name": "Rubedo, of White Stone Born",
+      "shortName": "Durin",
+      "featuredKeys": [
+        "durin"
+      ],
+      "version": "6.2",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2025-12-03 06:00:00",
+      "end": "2025-12-23 17:59:00",
+      "name": "Ballad in Goblets",
+      "shortName": "Venti",
+      "featuredKeys": [
+        "venti"
+      ],
+      "version": "6.2",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2025-12-03 06:00:00",
+      "end": "2025-12-23 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Athame",
+      "featuredKeys": [
+        "athame_artis",
+        "the_daybreak_chronicles"
+      ],
+      "version": "6.2",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2025-12-23 18:00:00",
+      "end": "2026-01-13 14:59:00",
+      "name": "Cornucopia of Contention",
+      "shortName": "Varesa",
+      "featuredKeys": [
+        "varesa"
+      ],
+      "version": "6.2",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2025-12-23 18:00:00",
+      "end": "2026-01-13 14:59:00",
+      "name": "Forgefire's Blessing",
+      "shortName": "Xilonen",
+      "featuredKeys": [
+        "xilonen"
+      ],
+      "version": "6.2",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2025-12-23 18:00:00",
+      "end": "2026-01-13 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Vivid",
+      "featuredKeys": [
+        "vivid_notions",
+        "peak_patrol_song"
+      ],
+      "version": "6.2",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2026-01-14 06:00:00",
+      "end": "2026-02-03 17:59:00",
+      "name": "Somnias a Luna",
+      "shortName": "Columbina",
+      "featuredKeys": [
+        "columbina"
+      ],
+      "version": "6.3",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2026-01-14 06:00:00",
+      "end": "2026-02-03 17:59:00",
+      "name": "Astral Actuation",
+      "shortName": "Ineffa",
+      "featuredKeys": [
+        "ineffa"
+      ],
+      "version": "6.3",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2026-01-14 06:00:00",
+      "end": "2026-02-03 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Nocturne",
+      "featuredKeys": [
+        "nocturnes_curtain_call",
+        "fractured_halo"
+      ],
+      "version": "6.3",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2026-02-03 18:00:00",
+      "end": "2026-02-24 14:59:00",
+      "name": "Harmonious Abundance",
+      "shortName": "Zibai",
+      "featuredKeys": [
+        "zibai"
+      ],
+      "version": "6.3",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2026-02-03 18:00:00",
+      "end": "2026-02-24 14:59:00",
+      "name": "Decree of the Deeps",
+      "shortName": "Neuvillette",
+      "featuredKeys": [
+        "neuvillette"
+      ],
+      "version": "6.3",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2026-02-03 18:00:00",
+      "end": "2026-02-24 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Nocturne",
+      "featuredKeys": [
+        "lightbearing_moonshard",
+        "tome_of_the_eternal_flow"
+      ],
+      "version": "6.3",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2026-02-25 06:00:00",
+      "end": "2026-03-17 17:59:00",
+      "name": "The Northerly Wind's Song of Triumph",
+      "shortName": "Varka",
+      "featuredKeys": [
+        "varka"
+      ],
+      "version": "6.4",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2026-02-25 06:00:00",
+      "end": "2026-03-17 17:59:00",
+      "name": "The Lone Light Knocks at Night",
+      "shortName": "Flins",
+      "featuredKeys": [
+        "flins"
+      ],
+      "version": "6.4",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2026-02-25 06:00:00",
+      "end": "2026-03-17 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Mighty Wolf",
+      "featuredKeys": [
+        "gest_of_the_mighty_wolf",
+        "bloodsoaked_ruins"
+      ],
+      "version": "6.4",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2026-03-17 18:00:00",
+      "end": "2026-04-07 14:59:00",
+      "name": "Void Star's Advent",
+      "shortName": "Skirk",
+      "featuredKeys": [
+        "skirk"
+      ],
+      "version": "6.4",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2026-03-17 18:00:00",
+      "end": "2026-04-07 14:59:00",
+      "name": "La Chanson Cerise",
+      "shortName": "Escoffier",
+      "featuredKeys": [
+        "escoffier"
+      ],
+      "version": "6.4",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2026-03-17 18:00:00",
+      "end": "2026-04-07 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Azurelight",
+      "featuredKeys": [
+        "azurelight",
+        "symphonist_of_scents"
+      ],
+      "version": "6.4",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2026-04-08 06:00:00",
+      "end": "2026-04-28 17:59:00",
+      "name": "Ya-hoho! Compendium",
+      "shortName": "Linnea",
+      "featuredKeys": [
+        "linnea"
+      ],
+      "version": "6.5",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2026-04-08 06:00:00",
+      "end": "2026-04-28 17:59:00",
+      "name": "Piercing Shot's Crimson Wake",
+      "shortName": "Chasca",
+      "featuredKeys": [
+        "chasca"
+      ],
+      "version": "6.5",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2026-04-08 06:00:00",
+      "end": "2026-04-28 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Frostbound",
+      "featuredKeys": [
+        "golden_frostbound_oath",
+        "astral_vultures_crimson_plumage"
+      ],
+      "version": "6.5",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2026-04-28 18:00:00",
+      "end": "2026-05-19 14:59:00",
+      "name": "Moonsong of the Groves",
+      "shortName": "Lauma",
+      "featuredKeys": [
+        "lauma"
+      ],
+      "version": "6.5",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2026-04-28 18:00:00",
+      "end": "2026-05-19 14:59:00",
+      "name": "Temptation of the Crimson Sands",
+      "shortName": "Nefer",
+      "featuredKeys": [
+        "nefer"
+      ],
+      "version": "6.5",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2026-04-28 18:00:00",
+      "end": "2026-05-19 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Nightweaver",
+      "featuredKeys": [
+        "nightweavers_looking_glass",
+        "reliquary_of_truth"
+      ],
+      "version": "6.5",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2026-05-20 06:00:00",
+      "end": "2026-06-09 17:59:00",
+      "name": "Angel's Reverie",
+      "shortName": "Nicole",
+      "featuredKeys": [
+        "nicole"
+      ],
+      "version": "6.6",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2026-05-20 06:00:00",
+      "end": "2026-06-09 17:59:00",
+      "name": "Rubedo, of White Stone Born",
+      "shortName": "Durin",
+      "featuredKeys": [
+        "durin"
+      ],
+      "version": "6.6",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2026-05-20 06:00:00",
+      "end": "2026-06-09 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Angelos",
+      "featuredKeys": [
+        "angelos_heptades",
+        "athame_artis"
+      ],
+      "version": "6.6",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2026-06-09 18:00:00",
+      "end": "2026-06-30 14:59:00",
+      "name": "Frostedge Nocturne",
+      "shortName": "Lohen",
+      "featuredKeys": [
+        "lohen"
+      ],
+      "version": "6.6",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2026-06-09 18:00:00",
+      "end": "2026-06-30 14:59:00",
+      "name": "Ancient Flame Ablaze",
+      "shortName": "Mavuika",
+      "featuredKeys": [
+        "mavuika"
+      ],
+      "version": "6.6",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2026-06-09 18:00:00",
+      "end": "2026-06-30 14:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Disaster",
+      "featuredKeys": [
+        "disaster_and_remorse",
+        "a_thousand_blazing_suns"
+      ],
+      "version": "6.6",
+      "source": "paimon.moe banners.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "301"
+      ],
+      "start": "2026-07-01 06:00:00",
+      "end": "2026-07-21 17:59:00",
+      "name": "To the Looking-Glass the Mademoiselle Said",
+      "shortName": "Sandrone",
+      "featuredKeys": [
+        "sandrone"
+      ],
+      "version": "6.7",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "character",
+      "gachaTypes": [
+        "400"
+      ],
+      "start": "2026-07-01 06:00:00",
+      "end": "2026-07-21 17:59:00",
+      "name": "Starry Night's Whispers",
+      "shortName": "Sandrone",
+      "featuredKeys": [
+        "citlali"
+      ],
+      "version": "6.7",
+      "source": "paimon.moe bannersDual.js"
+    },
+    {
+      "pool": "weapon",
+      "gachaTypes": [
+        "302"
+      ],
+      "start": "2026-07-01 06:00:00",
+      "end": "2026-07-21 17:59:00",
+      "name": "Epitome Invocation",
+      "shortName": "Transcendence",
+      "featuredKeys": [
+        "a_teaspoon_of_transcendence",
+        "starcallers_watch"
+      ],
+      "version": "6.7",
+      "source": "paimon.moe banners.js"
+    }
+  ]
+}

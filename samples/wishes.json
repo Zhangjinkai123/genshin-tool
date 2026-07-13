@@ -1,0 +1,14 @@
+{
+  "list": [
+    {"uid":"100000001","gacha_type":"301","name":"嘉明","item_type":"角色","rank_type":"4","time":"2026-01-03 12:00:00"},
+    {"uid":"100000001","gacha_type":"301","name":"冷刃","item_type":"武器","rank_type":"3","time":"2026-01-03 12:01:00"},
+    {"uid":"100000001","gacha_type":"301","name":"闲云","item_type":"角色","rank_type":"5","time":"2026-01-03 12:02:00","fifty_fifty":"win"},
+    {"uid":"100000001","gacha_type":"301","name":"祭礼剑","item_type":"武器","rank_type":"4","time":"2026-02-10 09:11:00"},
+    {"uid":"100000001","gacha_type":"302","name":"弓藏","item_type":"武器","rank_type":"4","time":"2026-02-11 19:20:00"},
+    {"uid":"100000001","gacha_type":"302","name":"天空之翼","item_type":"武器","rank_type":"5","time":"2026-02-11 19:22:00"},
+    {"uid":"100000001","gacha_type":"200","name":"迪卢克","item_type":"角色","rank_type":"5","time":"2026-03-02 08:30:00","fifty_fifty":"lose"},
+    {"uid":"100000001","gacha_type":"301","name":"匣里龙吟","item_type":"武器","rank_type":"4","time":"2026-03-12 20:00:00"},
+    {"uid":"100000001","gacha_type":"301","name":"西风秘典","item_type":"武器","rank_type":"4","time":"2026-03-12 20:01:00"},
+    {"uid":"100000001","gacha_type":"301","name":"菲谢尔","item_type":"角色","rank_type":"4","time":"2026-03-12 20:02:00"}
+  ]
+}
