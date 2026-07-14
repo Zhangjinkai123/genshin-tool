@@ -20,6 +20,7 @@ ENV/
 # Local runtime output
 data/default-wishes.json
 data/default-artifacts.json
+data/training-recipes.json
 data/wishes/*.json
 data/artifacts/*.json
 data/cache/*.json

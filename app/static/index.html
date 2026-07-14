@@ -21,6 +21,7 @@
           <button class="nav-tab" data-view="wishes">抽卡</button>
           <button class="nav-tab" data-view="artifacts">圣遗物</button>
           <button class="nav-tab" data-view="characters">角色练度</button>
+          <button class="nav-tab" data-view="training">材料规划</button>
           <button class="nav-tab" data-view="settings">设置</button>
         </nav>
         <section class="account-panel">
@@ -247,6 +248,39 @@
               <h3>练度详情</h3>
               <div id="characterDetail" class="detail-empty">选择角色查看毕业模板与培养建议</div>
             </aside>
+          </div>
+        </section>
+
+        <section class="view" id="trainingView">
+          <div class="toolbar">
+            <label class="file-button">导入 GOOD JSON<input id="trainingFile" type="file" accept="application/json,.json" /></label>
+            <button id="updateRecipesBtn" class="primary-btn" type="button">更新培养配方</button>
+            <span id="recipeStatus" class="item-meta">正在读取配方状态…</span>
+          </div>
+          <div class="training-layout">
+            <section>
+              <div class="section-title"><h3>材料总览</h3><span id="trainingMaterialHint">等待导入</span></div>
+              <input id="trainingMaterialSearch" class="wide-input" type="search" placeholder="模糊搜索材料名称或英文 key" />
+              <div id="trainingMaterialList" class="material-list"></div>
+            </section>
+            <section>
+              <h3>培养计算器</h3>
+              <div class="settings-form training-form">
+                <label>角色<select id="planCharacter"></select></label>
+                <label>目标角色等级<select id="planCharacterTarget"><option value="0">20 级</option><option value="1">40 级</option><option value="2">50 级</option><option value="3">60 级</option><option value="4">70 级</option><option value="5">80 级</option><option value="6" selected>90 级</option></select></label>
+                <label id="planTravelerElementLabel" hidden>旅行者元素<select id="planTravelerElement"><option value="anemo">风</option><option value="geo">岩</option><option value="electro">雷</option><option value="dendro">草</option><option value="hydro">水</option><option value="pyro">火</option></select></label>
+                <div class="three-col">
+                  <label>普攻<select id="planAutoTarget"></select></label>
+                  <label>战技<select id="planSkillTarget"></select></label>
+                  <label>爆发<select id="planBurstTarget"></select></label>
+                </div>
+                <label>武器（可选）<select id="planWeapon"></select></label>
+                <label id="planWeaponTargetLabel" hidden>目标武器等级<select id="planWeaponTarget"><option value="0">20 级</option><option value="1">40 级</option><option value="2">50 级</option><option value="3">60 级</option><option value="4">70 级</option><option value="5">80 级</option><option value="6" selected>90 级</option></select></label>
+                <button id="calculateTrainingBtn" class="primary-btn" type="button">计算所需材料</button>
+              </div>
+              <div id="trainingResult" class="detail-empty">选择角色后计算材料需求。</div>
+              <p class="item-meta">角色经验书按当前等级起点计算；GOOD 未记录等级内经验进度。</p>
+            </section>
           </div>
         </section>
 

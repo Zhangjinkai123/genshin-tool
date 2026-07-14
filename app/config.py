@@ -17,6 +17,7 @@ DEFAULT_ARTIFACTS_PATH = DATA_DIR / "default-artifacts.json"
 WISH_DIR = DATA_DIR / "wishes"
 ARTIFACT_DIR = DATA_DIR / "artifacts"
 CACHE_DIR = DATA_DIR / "cache"
+TRAINING_RECIPES_PATH = DATA_DIR / "training-recipes.json"
 
 
 def ensure_directories() -> None:

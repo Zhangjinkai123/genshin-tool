@@ -9,6 +9,7 @@ from urllib.parse import parse_qs, urlparse
 from .artifacts import normalize_artifacts, summarize_artifacts
 from .characters import analyze_characters
 from .config import APP_HOST, APP_NAME, APP_PORT, DEFAULT_ARTIFACTS_PATH, DEFAULT_WISHES_PATH, MAX_BODY_BYTES, STATIC_DIR, ensure_directories
+from .recipes import account_from_good, calculate as calculate_training, recipe_status, update_recipes
 from .storage import clear_cache, load_bundle, read_json, save_bundle
 from .wishes import analyze_wishes, fetch_wishes_from_url, normalize_wishes
 
@@ -43,6 +44,18 @@ class GenshinToolHandler(BaseHTTPRequestHandler):
                 self.send_json(default_artifacts())
             elif path == "/api/characters/default" and method == "GET":
                 self.send_json(default_characters())
+            elif path == "/api/training/default" and method == "GET":
+                self.send_json(default_training())
+            elif path == "/api/training/analyze" and method == "POST":
+                body = self.read_json()
+                self.send_json(account_from_good(body.get("records")))
+            elif path == "/api/training/calculate" and method == "POST":
+                body = self.read_json()
+                self.send_json(calculate_training(body.get("records"), body.get("characterKey", ""), body.get("characterTarget", 0), body.get("talents", {}), body.get("weaponKey", ""), body.get("weaponTarget", 0), body.get("travelerElement", "")))
+            elif path == "/api/training/recipes" and method == "GET":
+                self.send_json(recipe_status())
+            elif path == "/api/training/recipes/update" and method == "POST":
+                self.send_json(update_recipes())
             elif path == "/api/wishes/analyze" and method == "POST":
                 body = self.read_json()
                 normalized = normalize_wishes(body.get("records"), body.get("uid", ""), body.get("featuredItems"))
@@ -149,6 +162,13 @@ def default_characters() -> dict:
     if not isinstance(payload, dict):
         raise ValueError("默认角色数据不可用。")
     return analyze_characters(payload)
+
+
+def default_training() -> dict:
+    payload = read_json(DEFAULT_ARTIFACTS_PATH)
+    if not isinstance(payload, dict):
+        raise ValueError("默认角色数据不可用。")
+    return {**account_from_good(payload), "records": payload}
 
 
 def default_account_uid() -> str:

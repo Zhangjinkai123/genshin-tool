@@ -11,6 +11,9 @@ const state = {
   characterSummary: null,
   selectedCharacterKey: "",
   characterGradeFilter: "",
+  trainingAccount: null,
+  trainingRaw: null,
+  trainingResult: null,
   updatedAt: "",
   intervalShowDate: JSON.parse(localStorage.getItem("genshinTool.intervalShowDate") || "false")
 };
@@ -43,6 +46,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   bindWishes();
   bindArtifacts();
   bindCharacters();
+  bindTraining();
   bindIntervalOptions();
   bindCache();
   hydrateAccountForm();
@@ -50,6 +54,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   await loadDefaultWishes();
   await loadDefaultArtifacts();
   await loadDefaultCharacters();
+  await loadDefaultTraining();
   renderAll();
 });
 
@@ -91,6 +96,16 @@ async function loadDefaultCharacters() {
     applyCharacterResult(result, false);
   } catch (error) {
     console.warn("Unable to load default characters", error);
+  }
+}
+
+async function loadDefaultTraining() {
+  try {
+    state.trainingAccount = await fetch("/api/training/default").then(readResponse);
+    state.trainingRaw = state.trainingAccount.records || null;
+    renderTraining();
+  } catch (error) {
+    console.warn("Unable to load default training", error);
   }
 }
 
@@ -263,6 +278,110 @@ function bindCharacters() {
       renderCharacters();
     });
   });
+}
+
+function bindTraining() {
+  $("trainingFile").addEventListener("change", async (event) => {
+    const file = event.target.files[0];
+    if (!file) return;
+    try {
+      const raw = await readJsonFile(file);
+      state.trainingRaw = raw;
+      state.trainingAccount = await api("/api/training/analyze", { records: raw });
+      state.trainingResult = null;
+      renderTraining();
+      toast("已读取账号材料与角色培养数据。");
+    } catch (error) { toast(error.message); }
+    finally { event.target.value = ""; }
+  });
+  $("updateRecipesBtn").addEventListener("click", async () => {
+    const button = $("updateRecipesBtn");
+    button.disabled = true;
+    button.textContent = "正在更新…";
+    try {
+      const status = await api("/api/training/recipes/update", {});
+      updateRecipeStatus(status);
+      toast(`培养配方已更新至 ${status.version}。`);
+    } catch (error) { toast(`配方更新失败：${error.message}`); }
+    finally { button.disabled = false; button.textContent = "更新培养配方"; }
+  });
+  $("planCharacter").addEventListener("change", renderTrainingForm);
+  $("planWeapon").addEventListener("change", syncWeaponTargetVisibility);
+  $("calculateTrainingBtn").addEventListener("click", calculateTraining);
+  $("trainingMaterialSearch").addEventListener("input", renderTrainingMaterials);
+  fetch("/api/training/recipes").then(readResponse).then(updateRecipeStatus).catch(() => {});
+}
+
+function renderTraining() {
+  renderTrainingMaterials();
+  renderTrainingForm();
+}
+
+function renderTrainingMaterials() {
+  const account = state.trainingAccount;
+  const all = account?.materials || [];
+  const query = $("trainingMaterialSearch").value.trim().toLocaleLowerCase();
+  const list = all.filter((item) => `${item.name} ${item.key}`.toLocaleLowerCase().includes(query));
+  $("trainingMaterialHint").textContent = all.length ? `${all.length} 种材料 · 筛选后 ${list.length} 项` : "等待导入";
+  $("trainingMaterialList").innerHTML = list.length ? list.map((item) => `<article class="material-item"><span>${escapeHtml(item.name)}</span><strong><small>库存</small>${item.quantity.toLocaleString()}</strong></article>`).join("") : `<div class="detail-empty">没有符合条件的材料</div>`;
+}
+
+function renderTrainingForm() {
+  const account = state.trainingAccount;
+  const characters = account?.characters || [];
+  const select = $("planCharacter");
+  const old = select.value;
+  setOptions(select, [["", "选择角色"], ...characters.map((item) => [item.key, `${item.name}${item.isPlaceholder ? "（默认等级）" : ""} · ${item.level}级`])]);
+  select.value = characters.some((item) => item.key === old) ? old : characters[0]?.key || "";
+  const character = characters.find((item) => item.key === select.value);
+  $("planTravelerElementLabel").hidden = !isTraveler(character?.key);
+  for (const [id, value] of [["planAutoTarget", character?.talent?.auto], ["planSkillTarget", character?.talent?.skill], ["planBurstTarget", character?.talent?.burst]]) {
+    setOptions($(id), Array.from({ length: 10 }, (_, index) => [index + 1, `${index + 1} 级`]));
+    $(id).value = Math.max(1, Number(value || 1));
+  }
+  const weapons = (account?.weapons || []).filter((item) => item.location === character?.key);
+  setOptions($("planWeapon"), [["", "不计算武器"], ...weapons.map((item) => [item.key, `${item.name} · ${item.level}级 R${item.refinement}`])]);
+  syncWeaponTargetVisibility();
+  $("trainingResult").innerHTML = state.trainingResult ? trainingResultHtml(state.trainingResult) : "选择目标后计算材料需求。";
+}
+
+function isTraveler(key) {
+  return ["Aether", "Lumine", "PlayerBoy", "PlayerGirl"].includes(String(key || ""));
+}
+
+function syncWeaponTargetVisibility() {
+  $("planWeaponTargetLabel").hidden = !$("planWeapon").value;
+}
+
+async function calculateTraining() {
+  if (!state.trainingRaw) return toast("请先导入你的 GOOD JSON；默认展示数据只用于预览。" );
+  try {
+    state.trainingResult = await api("/api/training/calculate", {
+      records: state.trainingRaw,
+      characterKey: $("planCharacter").value,
+      characterTarget: Number($("planCharacterTarget").value),
+      talents: { auto: Number($("planAutoTarget").value), skill: Number($("planSkillTarget").value), burst: Number($("planBurstTarget").value) },
+      weaponKey: $("planWeapon").value,
+      weaponTarget: Number($("planWeaponTarget").value),
+      travelerElement: $("planTravelerElement").value,
+    });
+    $("trainingResult").innerHTML = trainingResultHtml(state.trainingResult);
+  } catch (error) { toast(error.message); }
+}
+
+function updateRecipeStatus(status) {
+  $("recipeStatus").textContent = status?.available ? `配方 ${status.version} · ${status.characterCount} 名角色 / ${status.weaponCount} 把武器` : "尚未下载培养配方";
+}
+
+function trainingResultHtml(result) {
+  const categories = result.categories || [];
+  const rows = categories.flatMap((category) => category.rows);
+  if (!rows.length) return `<p class="item-meta">当前库存已满足所选培养目标。</p>`;
+  return `
+    <section class="training-results">
+      ${categories.map((category) => `<section class="training-result-group"><div class="training-result-group-title"><strong>${escapeHtml(category.name)}</strong></div><div class="training-results-head"><span>材料</span><span>需求</span><span>可用</span><span>缺少</span></div><div class="training-result-list">${category.rows.map((item) => `<div class="training-result-row ${item.missing ? "is-missing" : ""}"><span>${escapeHtml(item.name)}</span><strong>${item.required.toLocaleString()}</strong><strong>${item.owned.toLocaleString()}</strong>${item.missing ? `<strong class="missing-count"><small>缺</small>${item.missing.toLocaleString()}</strong>` : `<strong>0</strong>`}</div>`).join("")}</div></section>`).join("")}
+    </section>
+    ${result.unmapped ? `<p class="item-meta">部分角色、天赋或武器尚未被当前配方版本收录；旅行者请确认元素形态。</p>` : ""}`;
 }
 
 function applyCharacterResult(result, render = true) {

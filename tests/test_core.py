@@ -1,7 +1,12 @@
+import json
+import tempfile
 import unittest
+from pathlib import Path
 
 from app.artifacts import normalize_artifacts, summarize_artifacts, toolbox_rv_score
 from app.characters import analyze_characters
+import app.recipes as recipes
+from app.recipes import calculate
 from app.server import default_artifacts, default_characters, default_wishes
 from app.wishes import analyze_wishes, normalize_wishes
 
@@ -274,6 +279,81 @@ class CharacterAnalysisTests(unittest.TestCase):
         self.assertEqual(len(result["records"]), 78)
         self.assertGreater(result["summary"]["graduateCount"], 0)
         self.assertTrue(raiden["recommendedSetMatched"])
+
+
+class TrainingCalculationTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.temp_dir = tempfile.TemporaryDirectory()
+        cls.recipe_path = recipes.TRAINING_RECIPES_PATH
+        recipes.TRAINING_RECIPES_PATH = Path(cls.temp_dir.name) / "training-recipes.json"
+        recipes.TRAINING_RECIPES_PATH.write_text(json.dumps({
+            "source": "test",
+            "version": "test",
+            "characters": {
+                "shikanoinheizou": {"name": "鹿野院平藏", "costs": {}},
+                "aether": {"name": "旅行者", "costs": {}},
+                "testchar": {"name": "测试角色", "costs": {}},
+            },
+            "talents": {
+                "traveleranemo": {"name": "旅行者", "costs": {"lvl2": [{"id": 1, "count": 3}]}},
+                "testchar": {"name": "测试角色", "costs": {}},
+            },
+            "weapons": {},
+            "materials": {
+                "1": {"key": "testmaterial", "name": "测试材料"},
+                "2": {"key": "heroswit", "name": "大英雄的经验"},
+                "3": {"key": "adventurersexperience", "name": "冒险家的经验"},
+                "4": {"key": "wanderersadvice", "name": "流浪者的经验"},
+                "5": {"key": "mora", "name": "摩拉"},
+            },
+        }, ensure_ascii=False), encoding="utf-8")
+
+    @classmethod
+    def tearDownClass(cls):
+        recipes.TRAINING_RECIPES_PATH = cls.recipe_path
+        cls.temp_dir.cleanup()
+
+    def test_target_level_twenty_does_not_charge_the_first_ascension(self):
+        result = calculate(
+            {"characters": [{"key": "ShikanoinHeizou", "level": 20, "ascension": 0, "talent": {"auto": 1, "skill": 1, "burst": 1}}], "weapons": [], "materials": {}},
+            "ShikanoinHeizou",
+            0,
+            {"auto": 1, "skill": 1, "burst": 1},
+            "",
+            0,
+        )
+
+        self.assertEqual(result["rows"], [])
+
+    def test_traveler_uses_the_selected_element_talent_recipe(self):
+        payload = {
+            "characters": [{"key": "Aether", "level": 20, "ascension": 0, "talent": {"auto": 1, "skill": 1, "burst": 1}}],
+            "weapons": [],
+            "materials": {},
+        }
+
+        result = calculate(payload, "Aether", 0, {"auto": 2, "skill": 1, "burst": 1}, "", 0, "anemo")
+        no_element = calculate(payload, "Aether", 0, {"auto": 2, "skill": 1, "burst": 1}, "", 0)
+
+        self.assertFalse(result["unmapped"])
+        self.assertTrue(result["rows"])
+        self.assertIn("talents", no_element["unmappedParts"])
+
+    def test_level_exp_uses_exact_level_rows_and_available_books(self):
+        payload = {
+            "characters": [{"key": "TestChar", "level": 86, "ascension": 6, "talent": {"auto": 1, "skill": 1, "burst": 1}}],
+            "weapons": [],
+            "materials": {"HerosWit": 124, "AdventurersExperience": 3208, "Mora": 999999},
+        }
+
+        result = calculate(payload, "TestChar", 6, {"auto": 1, "skill": 1, "burst": 1}, "", 0)
+        level_rows = next(category["rows"] for category in result["categories"] if category["id"] == "level")
+        requirements = {row["key"]: row["required"] for row in level_rows}
+
+        self.assertEqual(requirements["heroswit"], 92)
+        self.assertEqual(requirements["adventurersexperience"], 4)
+        self.assertEqual(requirements["mora"], 371240)
 
 
 if __name__ == "__main__":

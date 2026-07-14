@@ -524,6 +524,238 @@ th {
   gap: 10px;
 }
 
+.training-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.9fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.training-layout > section {
+  padding: 14px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.training-layout .wide-input {
+  width: 100%;
+  max-width: none;
+  margin: 10px 0;
+}
+
+/* The form label rule uses display:grid, which otherwise overrides hidden. */
+.training-form > label[hidden] {
+  display: none !important;
+}
+
+.material-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(178px, 1fr));
+  gap: 8px;
+  max-height: 610px;
+  overflow: auto;
+  padding: 2px 4px 4px 2px;
+}
+
+.material-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 52px;
+  gap: 12px;
+  padding: 9px 10px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--surface-subtle);
+}
+
+.material-item:hover {
+  border-color: #bcc2f4;
+  background: var(--accent-soft);
+}
+
+.material-item > span {
+  min-width: 0;
+  overflow: hidden;
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 620;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.material-item strong {
+  display: grid;
+  justify-items: end;
+  color: var(--text);
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.05;
+}
+
+.material-item strong small {
+  margin-bottom: 3px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 520;
+}
+
+.three-col {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.training-results {
+  margin-top: 14px;
+  border-top: 1px solid #e7e9ee;
+}
+
+.training-results-summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 15px 0 12px;
+}
+
+.training-results-summary div {
+  display: grid;
+  gap: 2px;
+}
+
+.training-results-summary span {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.training-results-summary strong {
+  color: var(--text);
+  font-size: 18px;
+  line-height: 1.1;
+}
+
+.training-shortfall {
+  justify-items: end;
+}
+
+.training-shortfall strong,
+.training-result-row.is-missing > strong:last-child {
+  color: #be123c;
+}
+
+.training-results-summary small {
+  margin-left: 5px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 520;
+}
+
+.training-results-head,
+.training-result-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 50px 50px 50px;
+  gap: 6px;
+  align-items: center;
+}
+
+.training-results-head {
+  padding: 0 10px 7px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.training-result-group {
+  margin-top: 12px;
+}
+
+.training-result-group-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+
+.training-result-group-title strong {
+  color: var(--text);
+  font-size: 13px;
+}
+
+.training-result-group-title span {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.training-results-head span:not(:first-child) {
+  text-align: right;
+}
+
+.training-result-list {
+  display: grid;
+  gap: 5px;
+  max-height: 310px;
+  overflow: auto;
+  padding: 1px 4px 2px 0;
+}
+
+.training-result-row {
+  position: relative;
+  min-height: 42px;
+  padding: 8px 10px;
+  border: 1px solid #e7e9ee;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 12px;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.training-result-row:hover {
+  border-color: #cbd0dc;
+  background: #fbfcfe;
+}
+
+.training-result-row > span {
+  overflow: hidden;
+  color: var(--text);
+  font-weight: 620;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.training-result-row > strong {
+  color: #4b5567;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.training-result-row.is-missing {
+  border-color: #e8d9de;
+  background: #fff;
+  box-shadow: inset 3px 0 0 #e11d48;
+}
+
+.training-result-row.is-missing > .missing-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3px;
+  min-height: 24px;
+  padding: 2px 7px;
+  border: 1px solid #fecdd3;
+  border-radius: 5px;
+  background: #fff1f2;
+  color: #be123c;
+  font-weight: 740;
+}
+
+.training-result-row.is-missing > .missing-count small {
+  color: #e11d48;
+  font-size: 10px;
+  font-weight: 620;
+}
+
 .artifact-list {
   display: grid;
   gap: 8px;
@@ -863,12 +1095,21 @@ pre {
   .charts-grid,
   .artifact-layout,
   .character-layout,
+  .training-layout,
   .settings-grid {
     grid-template-columns: 1fr;
   }
 
   .detail-panel {
     position: static;
+  }
+
+  .three-col {
+    grid-template-columns: 1fr;
+  }
+
+  .material-list {
+    grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
   }
 }
 
