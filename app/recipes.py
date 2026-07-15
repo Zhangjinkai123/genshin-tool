@@ -95,13 +95,46 @@ def account_from_good(payload: Any) -> dict:
     weapons = payload.get("weapons") if isinstance(payload.get("weapons"), list) else []
     materials = payload.get("materials") if isinstance(payload.get("materials"), dict) else {}
     recipes = read_json(TRAINING_RECIPES_PATH, {})
-    material_names = {_norm(item.get("key")): item.get("name") for item in recipes.get("materials", {}).values() if isinstance(item, dict)}
-    character_names = {key: item.get("name", key) for key, item in recipes.get("characters", {}).items() if isinstance(item, dict)}
-    weapon_names = {key: item.get("name", key) for key, item in recipes.get("weapons", {}).items() if isinstance(item, dict)}
-    weapon_options = [{"key": str(item.get("key") or ""), "name": weapon_names.get(_norm(item.get("key")), str(item.get("key") or "")), "level": _as_int(item.get("level")), "ascension": _as_int(item.get("ascension")), "refinement": _as_int(item.get("refinement")), "location": str(item.get("location") or "")}
-                      for item in weapons if isinstance(item, dict) and item.get("key")]
-    character_records = [{"key": _traveler_key(item.get("key")), "name": character_names.get(_norm(_traveler_key(item.get("key"))), str(item.get("key") or "")), "level": _as_int(item.get("level")), "ascension": _as_int(item.get("ascension")), "talent": item.get("talent") if isinstance(item.get("talent"), dict) else {}}
-                         for item in characters if isinstance(item, dict) and item.get("key")]
+    material_names = {
+        _norm(item.get("key")): item.get("name")
+        for item in recipes.get("materials", {}).values()
+        if isinstance(item, dict)
+    }
+    character_names = {
+        key: item.get("name", key)
+        for key, item in recipes.get("characters", {}).items()
+        if isinstance(item, dict)
+    }
+    weapon_names = {
+        key: item.get("name", key)
+        for key, item in recipes.get("weapons", {}).items()
+        if isinstance(item, dict)
+    }
+    weapon_options = []
+    for item in weapons:
+        if not isinstance(item, dict) or not item.get("key"):
+            continue
+        key = str(item["key"])
+        weapon_options.append({
+            "key": key,
+            "name": weapon_names.get(_norm(key), key),
+            "level": _as_int(item.get("level")),
+            "ascension": _as_int(item.get("ascension")),
+            "refinement": _as_int(item.get("refinement")),
+            "location": str(item.get("location") or ""),
+        })
+    character_records = []
+    for item in characters:
+        if not isinstance(item, dict) or not item.get("key"):
+            continue
+        key = _traveler_key(item["key"])
+        character_records.append({
+            "key": key,
+            "name": character_names.get(_norm(key), key),
+            "level": _as_int(item.get("level")),
+            "ascension": _as_int(item.get("ascension")),
+            "talent": item.get("talent") if isinstance(item.get("talent"), dict) else {},
+        })
     if not any(_norm(item["key"]) in {"aether", "lumine"} for item in character_records):
         character_records.append({"key": "Aether", "name": "旅行者", "level": 1, "ascension": 0, "talent": {"auto": 1, "skill": 1, "burst": 1}, "isPlaceholder": True})
     return {
@@ -113,7 +146,15 @@ def account_from_good(payload: Any) -> dict:
     }
 
 
-def calculate(payload: Any, character_key: str, character_target: int, talents: dict, weapon_key: str, weapon_target: int, traveler_element: str = "") -> dict:
+def calculate(
+    payload: Any,
+    character_key: str,
+    character_target: int,
+    talents: dict,
+    weapon_key: str,
+    weapon_target: int,
+    traveler_element: str = "",
+) -> dict:
     account = account_from_good(payload)
     recipes = read_json(TRAINING_RECIPES_PATH, {})
     if not isinstance(recipes, dict) or not recipes.get("characters"):
@@ -151,7 +192,13 @@ def calculate(payload: Any, character_key: str, character_target: int, talents: 
         unmapped_parts.append("talents")
     if weapon_key and not weapon_recipe:
         unmapped_parts.append("weapon")
-    return {"rows": rows, "categories": categories, "recipeStatus": recipe_status(), "unmapped": bool(unmapped_parts), "unmappedParts": unmapped_parts}
+    return {
+        "rows": rows,
+        "categories": categories,
+        "recipeStatus": recipe_status(),
+        "unmapped": bool(unmapped_parts),
+        "unmappedParts": unmapped_parts,
+    }
 
 
 def _compact_costs(records: Any) -> dict:

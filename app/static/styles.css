@@ -613,43 +613,8 @@ th {
   border-top: 1px solid #e7e9ee;
 }
 
-.training-results-summary {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 15px 0 12px;
-}
-
-.training-results-summary div {
-  display: grid;
-  gap: 2px;
-}
-
-.training-results-summary span {
-  color: var(--muted);
-  font-size: 11px;
-}
-
-.training-results-summary strong {
-  color: var(--text);
-  font-size: 18px;
-  line-height: 1.1;
-}
-
-.training-shortfall {
-  justify-items: end;
-}
-
-.training-shortfall strong,
 .training-result-row.is-missing > strong:last-child {
   color: #be123c;
-}
-
-.training-results-summary small {
-  margin-left: 5px;
-  color: var(--muted);
-  font-size: 10px;
-  font-weight: 520;
 }
 
 .training-results-head,
